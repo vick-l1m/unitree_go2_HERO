@@ -1,8 +1,0 @@
-source;share/flatten_pointcloud/hook/cmake_prefix_path.ps1
-source;share/flatten_pointcloud/hook/cmake_prefix_path.dsv
-source;share/flatten_pointcloud/hook/cmake_prefix_path.sh
-source;share/flatten_pointcloud/local_setup.bash
-source;share/flatten_pointcloud/local_setup.dsv
-source;share/flatten_pointcloud/local_setup.ps1
-source;share/flatten_pointcloud/local_setup.sh
-source;share/flatten_pointcloud/local_setup.zsh

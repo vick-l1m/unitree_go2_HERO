@@ -1,7 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"/home/victor-22/go2_ws/slam_ws/flatten_point_cloud_ws/build/flatten_pointcloud/cmake_install.cmake"
-	],
-	"Parallel" : false
-}
