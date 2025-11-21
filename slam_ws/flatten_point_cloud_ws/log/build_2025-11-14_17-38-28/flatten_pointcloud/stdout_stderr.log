@@ -1,0 +1,25 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/flatten_node.dir/src/flatten_node.cpp.o[0m
+[100%] [1m[32mLinking CXX executable flatten_node[0m
+[100%] Built target flatten_node
+-- Install configuration: ""
+-- Installing: /home/victor-22/go2_ws/slam_ws/flatten_point_cloud_ws/install/flatten_pointcloud/lib/flatten_pointcloud/flatten_node
+-- Set non-toolchain portion of runtime path of "/home/victor-22/go2_ws/slam_ws/flatten_point_cloud_ws/install/flatten_pointcloud/lib/flatten_pointcloud/flatten_node" to ""
+-- Up-to-date: /home/victor-22/go2_ws/slam_ws/flatten_point_cloud_ws/install/flatten_pointcloud/share/flatten_pointcloud/launch
+-- Up-to-date: /home/victor-22/go2_ws/slam_ws/flatten_point_cloud_ws/install/flatten_pointcloud/share/flatten_pointcloud/launch/flatten_launch.py
+-- Up-to-date: /home/victor-22/go2_ws/slam_ws/flatten_point_cloud_ws/install/flatten_pointcloud/share/flatten_pointcloud/config
+-- Installing: /home/victor-22/go2_ws/slam_ws/flatten_point_cloud_ws/install/flatten_pointcloud/share/flatten_pointcloud/config/flatten_params.yaml
+-- Up-to-date: /home/victor-22/go2_ws/slam_ws/flatten_point_cloud_ws/install/flatten_pointcloud/share/ament_index/resource_index/package_run_dependencies/flatten_pointcloud
+-- Up-to-date: /home/victor-22/go2_ws/slam_ws/flatten_point_cloud_ws/install/flatten_pointcloud/share/ament_index/resource_index/parent_prefix_path/flatten_pointcloud
+-- Up-to-date: /home/victor-22/go2_ws/slam_ws/flatten_point_cloud_ws/install/flatten_pointcloud/share/flatten_pointcloud/environment/ament_prefix_path.sh
+-- Up-to-date: /home/victor-22/go2_ws/slam_ws/flatten_point_cloud_ws/install/flatten_pointcloud/share/flatten_pointcloud/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/victor-22/go2_ws/slam_ws/flatten_point_cloud_ws/install/flatten_pointcloud/share/flatten_pointcloud/environment/path.sh
+-- Up-to-date: /home/victor-22/go2_ws/slam_ws/flatten_point_cloud_ws/install/flatten_pointcloud/share/flatten_pointcloud/environment/path.dsv
+-- Up-to-date: /home/victor-22/go2_ws/slam_ws/flatten_point_cloud_ws/install/flatten_pointcloud/share/flatten_pointcloud/local_setup.bash
+-- Up-to-date: /home/victor-22/go2_ws/slam_ws/flatten_point_cloud_ws/install/flatten_pointcloud/share/flatten_pointcloud/local_setup.sh
+-- Up-to-date: /home/victor-22/go2_ws/slam_ws/flatten_point_cloud_ws/install/flatten_pointcloud/share/flatten_pointcloud/local_setup.zsh
+-- Up-to-date: /home/victor-22/go2_ws/slam_ws/flatten_point_cloud_ws/install/flatten_pointcloud/share/flatten_pointcloud/local_setup.dsv
+-- Installing: /home/victor-22/go2_ws/slam_ws/flatten_point_cloud_ws/install/flatten_pointcloud/share/flatten_pointcloud/package.dsv
+-- Up-to-date: /home/victor-22/go2_ws/slam_ws/flatten_point_cloud_ws/install/flatten_pointcloud/share/ament_index/resource_index/packages/flatten_pointcloud
+-- Up-to-date: /home/victor-22/go2_ws/slam_ws/flatten_point_cloud_ws/install/flatten_pointcloud/share/flatten_pointcloud/cmake/flatten_pointcloudConfig.cmake
+-- Up-to-date: /home/victor-22/go2_ws/slam_ws/flatten_point_cloud_ws/install/flatten_pointcloud/share/flatten_pointcloud/cmake/flatten_pointcloudConfig-version.cmake
+-- Up-to-date: /home/victor-22/go2_ws/slam_ws/flatten_point_cloud_ws/install/flatten_pointcloud/share/flatten_pointcloud/package.xml

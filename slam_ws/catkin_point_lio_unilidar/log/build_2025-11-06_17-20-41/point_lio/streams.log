@@ -1,0 +1,79 @@
+[0.012s] Invoking command in '/home/victor-22/go2_ws/slam_ws/catkin_point_lio_unilidar/build/point_lio': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/victor-22/go2_ws/slam_ws/catkin_point_lio_unilidar/src/point_lio_ros2 -DCMAKE_INSTALL_PREFIX=/home/victor-22/go2_ws/slam_ws/catkin_point_lio_unilidar/install/point_lio
+[0.025s] -- Current CPU architecture: x86_64
+[0.030s] -- Processor number:  8
+[0.030s] -- core for MP:  3
+[0.030s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.162s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.170s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.203s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.205s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.213s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.223s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.237s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.272s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.273s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.370s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.426s] -- Found rclpy: 3.3.17 (/opt/ros/humble/share/rclpy/cmake)
+[0.426s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.441s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.462s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.481s] -- Found pcl_ros: 2.4.5 (/opt/ros/humble/share/pcl_ros/cmake)
+[0.523s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.553s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[0.882s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.888s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.053s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.061s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.067s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.220s] -- Found Qhull version 8.0.2
+[1.382s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.582s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.583s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.684s] -- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[1.801s] -- Configuring done
+[1.849s] -- Generating done
+[1.861s] -- Build files have been written to: /home/victor-22/go2_ws/slam_ws/catkin_point_lio_unilidar/build/point_lio
+[1.878s] Invoked command in '/home/victor-22/go2_ws/slam_ws/catkin_point_lio_unilidar/build/point_lio' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/victor-22/go2_ws/slam_ws/catkin_point_lio_unilidar/src/point_lio_ros2 -DCMAKE_INSTALL_PREFIX=/home/victor-22/go2_ws/slam_ws/catkin_point_lio_unilidar/install/point_lio
+[1.881s] Invoking command in '/home/victor-22/go2_ws/slam_ws/catkin_point_lio_unilidar/build/point_lio': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/victor-22/go2_ws/slam_ws/catkin_point_lio_unilidar/build/point_lio -- -j8 -l8
+[1.935s] [35m[1mConsolidate compiler generated dependencies of target pointlio_mapping[0m
+[1.977s] [100%] Built target pointlio_mapping
+[1.988s] Invoked command in '/home/victor-22/go2_ws/slam_ws/catkin_point_lio_unilidar/build/point_lio' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/victor-22/go2_ws/slam_ws/catkin_point_lio_unilidar/build/point_lio -- -j8 -l8
+[1.999s] Invoking command in '/home/victor-22/go2_ws/slam_ws/catkin_point_lio_unilidar/build/point_lio': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/victor-22/go2_ws/slam_ws/catkin_point_lio_unilidar/build/point_lio
+[2.006s] -- Install configuration: ""
+[2.007s] -- Execute custom install script
+[2.007s] -- Up-to-date symlink: /home/victor-22/go2_ws/slam_ws/catkin_point_lio_unilidar/install/point_lio/lib/point_lio/pointlio_mapping
+[2.008s] -- Up-to-date symlink: /home/victor-22/go2_ws/slam_ws/catkin_point_lio_unilidar/install/point_lio/share/point_lio/config/avia.yaml
+[2.008s] -- Up-to-date symlink: /home/victor-22/go2_ws/slam_ws/catkin_point_lio_unilidar/install/point_lio/share/point_lio/config/horizon.yaml
+[2.008s] -- Up-to-date symlink: /home/victor-22/go2_ws/slam_ws/catkin_point_lio_unilidar/install/point_lio/share/point_lio/config/mid360.yaml
+[2.008s] -- Up-to-date symlink: /home/victor-22/go2_ws/slam_ws/catkin_point_lio_unilidar/install/point_lio/share/point_lio/config/ouster64.yaml
+[2.008s] -- Up-to-date symlink: /home/victor-22/go2_ws/slam_ws/catkin_point_lio_unilidar/install/point_lio/share/point_lio/config/unilidar_l1.yaml
+[2.008s] -- Up-to-date symlink: /home/victor-22/go2_ws/slam_ws/catkin_point_lio_unilidar/install/point_lio/share/point_lio/config/unilidar_l2.yaml
+[2.008s] -- Up-to-date symlink: /home/victor-22/go2_ws/slam_ws/catkin_point_lio_unilidar/install/point_lio/share/point_lio/config/velody16.yaml
+[2.009s] -- Up-to-date symlink: /home/victor-22/go2_ws/slam_ws/catkin_point_lio_unilidar/install/point_lio/share/point_lio/launch/correct_odom_unilidar_l1.launch.py
+[2.009s] -- Up-to-date symlink: /home/victor-22/go2_ws/slam_ws/catkin_point_lio_unilidar/install/point_lio/share/point_lio/launch/correct_odom_unilidar_l2.launch.py
+[2.009s] -- Up-to-date symlink: /home/victor-22/go2_ws/slam_ws/catkin_point_lio_unilidar/install/point_lio/share/point_lio/launch/gdb_debug_example.launch.py
+[2.009s] -- Up-to-date symlink: /home/victor-22/go2_ws/slam_ws/catkin_point_lio_unilidar/install/point_lio/share/point_lio/launch/mapping_avia.launch.py
+[2.009s] -- Up-to-date symlink: /home/victor-22/go2_ws/slam_ws/catkin_point_lio_unilidar/install/point_lio/share/point_lio/launch/mapping_horizon.launch.py
+[2.009s] -- Up-to-date symlink: /home/victor-22/go2_ws/slam_ws/catkin_point_lio_unilidar/install/point_lio/share/point_lio/launch/mapping_mid360.launch.py
+[2.009s] -- Up-to-date symlink: /home/victor-22/go2_ws/slam_ws/catkin_point_lio_unilidar/install/point_lio/share/point_lio/launch/mapping_ouster64.launch.py
+[2.009s] -- Up-to-date symlink: /home/victor-22/go2_ws/slam_ws/catkin_point_lio_unilidar/install/point_lio/share/point_lio/launch/mapping_unilidar_l1.launch.py
+[2.010s] -- Up-to-date symlink: /home/victor-22/go2_ws/slam_ws/catkin_point_lio_unilidar/install/point_lio/share/point_lio/launch/mapping_unilidar_l2.launch.py
+[2.010s] -- Up-to-date symlink: /home/victor-22/go2_ws/slam_ws/catkin_point_lio_unilidar/install/point_lio/share/point_lio/launch/mapping_velody16.launch.py
+[2.010s] -- Up-to-date symlink: /home/victor-22/go2_ws/slam_ws/catkin_point_lio_unilidar/install/point_lio/share/point_lio/rviz_cfg/loam_livox.rviz
+[2.010s] -- Up-to-date symlink: /home/victor-22/go2_ws/slam_ws/catkin_point_lio_unilidar/install/point_lio/share/ament_index/resource_index/package_run_dependencies/point_lio
+[2.010s] -- Up-to-date symlink: /home/victor-22/go2_ws/slam_ws/catkin_point_lio_unilidar/install/point_lio/share/ament_index/resource_index/parent_prefix_path/point_lio
+[2.011s] -- Up-to-date symlink: /home/victor-22/go2_ws/slam_ws/catkin_point_lio_unilidar/install/point_lio/share/point_lio/environment/ament_prefix_path.sh
+[2.011s] -- Up-to-date symlink: /home/victor-22/go2_ws/slam_ws/catkin_point_lio_unilidar/install/point_lio/share/point_lio/environment/ament_prefix_path.dsv
+[2.011s] -- Up-to-date symlink: /home/victor-22/go2_ws/slam_ws/catkin_point_lio_unilidar/install/point_lio/share/point_lio/environment/path.sh
+[2.011s] -- Up-to-date symlink: /home/victor-22/go2_ws/slam_ws/catkin_point_lio_unilidar/install/point_lio/share/point_lio/environment/path.dsv
+[2.011s] -- Up-to-date symlink: /home/victor-22/go2_ws/slam_ws/catkin_point_lio_unilidar/install/point_lio/share/point_lio/local_setup.bash
+[2.011s] -- Up-to-date symlink: /home/victor-22/go2_ws/slam_ws/catkin_point_lio_unilidar/install/point_lio/share/point_lio/local_setup.sh
+[2.011s] -- Up-to-date symlink: /home/victor-22/go2_ws/slam_ws/catkin_point_lio_unilidar/install/point_lio/share/point_lio/local_setup.zsh
+[2.012s] -- Up-to-date symlink: /home/victor-22/go2_ws/slam_ws/catkin_point_lio_unilidar/install/point_lio/share/point_lio/local_setup.dsv
+[2.012s] -- Symlinking: /home/victor-22/go2_ws/slam_ws/catkin_point_lio_unilidar/install/point_lio/share/point_lio/package.dsv
+[2.020s] -- Up-to-date symlink: /home/victor-22/go2_ws/slam_ws/catkin_point_lio_unilidar/install/point_lio/share/ament_index/resource_index/packages/point_lio
+[2.020s] -- Up-to-date symlink: /home/victor-22/go2_ws/slam_ws/catkin_point_lio_unilidar/install/point_lio/share/point_lio/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.021s] -- Up-to-date symlink: /home/victor-22/go2_ws/slam_ws/catkin_point_lio_unilidar/install/point_lio/share/point_lio/cmake/point_lioConfig.cmake
+[2.021s] -- Up-to-date symlink: /home/victor-22/go2_ws/slam_ws/catkin_point_lio_unilidar/install/point_lio/share/point_lio/cmake/point_lioConfig-version.cmake
+[2.021s] -- Up-to-date symlink: /home/victor-22/go2_ws/slam_ws/catkin_point_lio_unilidar/install/point_lio/share/point_lio/package.xml
+[2.023s] Invoked command in '/home/victor-22/go2_ws/slam_ws/catkin_point_lio_unilidar/build/point_lio' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/victor-22/go2_ws/slam_ws/catkin_point_lio_unilidar/build/point_lio

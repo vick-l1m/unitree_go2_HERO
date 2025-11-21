@@ -1,0 +1,36 @@
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (0.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/victor-22/go2_ws/slam_ws/cartographer_ws/build/go2_cartographer
+-- Install configuration: ""
+-- Up-to-date: /home/victor-22/go2_ws/slam_ws/cartographer_ws/install/go2_cartographer/share/go2_cartographer//launch
+-- Up-to-date: /home/victor-22/go2_ws/slam_ws/cartographer_ws/install/go2_cartographer/share/go2_cartographer//launch/go2_cartographer.launch.py
+-- Up-to-date: /home/victor-22/go2_ws/slam_ws/cartographer_ws/install/go2_cartographer/share/go2_cartographer//launch/__pycache__
+-- Up-to-date: /home/victor-22/go2_ws/slam_ws/cartographer_ws/install/go2_cartographer/share/go2_cartographer//launch/__pycache__/go2_cartographer.launch.cpython-310.pyc
+-- Up-to-date: /home/victor-22/go2_ws/slam_ws/cartographer_ws/install/go2_cartographer/share/go2_cartographer//launch/occupancy_grid.launch.py
+-- Up-to-date: /home/victor-22/go2_ws/slam_ws/cartographer_ws/install/go2_cartographer/share/go2_cartographer//config
+-- Up-to-date: /home/victor-22/go2_ws/slam_ws/cartographer_ws/install/go2_cartographer/share/go2_cartographer//config/cartographer_qos.yaml
+-- Installing: /home/victor-22/go2_ws/slam_ws/cartographer_ws/install/go2_cartographer/share/go2_cartographer//config/go2_cartographer.lua
+-- Up-to-date: /home/victor-22/go2_ws/slam_ws/cartographer_ws/install/go2_cartographer/share/go2_cartographer//rviz
+-- Up-to-date: /home/victor-22/go2_ws/slam_ws/cartographer_ws/install/go2_cartographer/share/go2_cartographer//rviz/go2_cartographer.rviz
+-- Up-to-date: /home/victor-22/go2_ws/slam_ws/cartographer_ws/install/go2_cartographer/share/ament_index/resource_index/package_run_dependencies/go2_cartographer
+-- Installing: /home/victor-22/go2_ws/slam_ws/cartographer_ws/install/go2_cartographer/share/ament_index/resource_index/parent_prefix_path/go2_cartographer
+-- Up-to-date: /home/victor-22/go2_ws/slam_ws/cartographer_ws/install/go2_cartographer/share/go2_cartographer/environment/ament_prefix_path.sh
+-- Installing: /home/victor-22/go2_ws/slam_ws/cartographer_ws/install/go2_cartographer/share/go2_cartographer/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/victor-22/go2_ws/slam_ws/cartographer_ws/install/go2_cartographer/share/go2_cartographer/environment/path.sh
+-- Installing: /home/victor-22/go2_ws/slam_ws/cartographer_ws/install/go2_cartographer/share/go2_cartographer/environment/path.dsv
+-- Up-to-date: /home/victor-22/go2_ws/slam_ws/cartographer_ws/install/go2_cartographer/share/go2_cartographer/local_setup.bash
+-- Up-to-date: /home/victor-22/go2_ws/slam_ws/cartographer_ws/install/go2_cartographer/share/go2_cartographer/local_setup.sh
+-- Up-to-date: /home/victor-22/go2_ws/slam_ws/cartographer_ws/install/go2_cartographer/share/go2_cartographer/local_setup.zsh
+-- Installing: /home/victor-22/go2_ws/slam_ws/cartographer_ws/install/go2_cartographer/share/go2_cartographer/local_setup.dsv
+-- Installing: /home/victor-22/go2_ws/slam_ws/cartographer_ws/install/go2_cartographer/share/go2_cartographer/package.dsv
+-- Up-to-date: /home/victor-22/go2_ws/slam_ws/cartographer_ws/install/go2_cartographer/share/ament_index/resource_index/packages/go2_cartographer
+-- Up-to-date: /home/victor-22/go2_ws/slam_ws/cartographer_ws/install/go2_cartographer/share/go2_cartographer/cmake/go2_cartographerConfig.cmake
+-- Up-to-date: /home/victor-22/go2_ws/slam_ws/cartographer_ws/install/go2_cartographer/share/go2_cartographer/cmake/go2_cartographerConfig-version.cmake
+-- Up-to-date: /home/victor-22/go2_ws/slam_ws/cartographer_ws/install/go2_cartographer/share/go2_cartographer/package.xml

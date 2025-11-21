@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/victor-22/go2_ws/slam_ws/cartographer_ws/src/go2_cartographer/build/go2_cartographer/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-379b3979a2a957f2e08b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "flatten_pointcloud",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "flatten_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-flatten_node-38a633a3502463e9076c.json",
+					"name" : "flatten_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "flatten_pointcloud_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-flatten_pointcloud_uninstall-84f3e6807a12a4b9eca7.json",
+					"name" : "flatten_pointcloud_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-e68ac792302862a0009f.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/victor-22/go2_ws/slam_ws/flatten_point_cloud_ws/build/flatten_pointcloud",
+		"source" : "/home/victor-22/go2_ws/slam_ws/flatten_point_cloud_ws"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

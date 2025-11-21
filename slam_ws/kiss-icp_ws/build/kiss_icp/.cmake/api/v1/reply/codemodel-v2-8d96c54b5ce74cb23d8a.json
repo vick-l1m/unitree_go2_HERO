@@ -1,0 +1,256 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-f7994f782d09c0a8d544.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						2,
+						4,
+						5,
+						7
+					]
+				},
+				{
+					"build" : "kiss_icp",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6
+					],
+					"jsonFile" : "directory-kiss_icp-Release-a724a9fb72816afa263c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "/home/victor-22/go2_ws/slam_ws/kiss-icp_ws/kiss-icp/cpp/kiss_icp"
+				},
+				{
+					"build" : "_deps/sophus-build",
+					"jsonFile" : "directory-_deps.sophus-build-Release-332614e071f12317f174.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "/home/victor-22/go2_ws/slam_ws/kiss-icp_ws/build/kiss_icp/_deps/sophus-src",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "_deps/tessil-build",
+					"jsonFile" : "directory-_deps.tessil-build-Release-add5477762b7765e35d1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 3,
+					"source" : "/home/victor-22/go2_ws/slam_ws/kiss-icp_ws/build/kiss_icp/_deps/tessil-src"
+				},
+				{
+					"build" : "kiss_icp/core",
+					"jsonFile" : "directory-kiss_icp.core-Release-41b92e44d3479b1d4419.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "/home/victor-22/go2_ws/slam_ws/kiss-icp_ws/kiss-icp/cpp/kiss_icp/core",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "kiss_icp/metrics",
+					"jsonFile" : "directory-kiss_icp.metrics-Release-ec7b78c0fd5f5cd74963.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "/home/victor-22/go2_ws/slam_ws/kiss-icp_ws/kiss-icp/cpp/kiss_icp/metrics",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "kiss_icp/pipeline",
+					"jsonFile" : "directory-kiss_icp.pipeline-Release-83c6e9aeb6b2742c9a3d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "/home/victor-22/go2_ws/slam_ws/kiss-icp_ws/kiss-icp/cpp/kiss_icp/pipeline",
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "kiss_icp",
+					"targetIndexes" : 
+					[
+						2,
+						4,
+						5,
+						7
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2,
+						3
+					],
+					"directoryIndexes" : 
+					[
+						1,
+						4,
+						5,
+						6
+					],
+					"name" : "kiss_icp_cpp",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "Sophus",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "tsl-robin-map",
+					"parentIndex" : 1
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 4,
+					"id" : "kiss_icp_core::@f15dea1d0e2072c61095",
+					"jsonFile" : "target-kiss_icp_core-Release-8cfd5167c4fd144819ac.json",
+					"name" : "kiss_icp_core",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "kiss_icp_metrics::@83fde38ab14997601bd9",
+					"jsonFile" : "target-kiss_icp_metrics-Release-3b9c49642485d39847ee.json",
+					"name" : "kiss_icp_metrics",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kiss_icp_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kiss_icp_node-Release-f2fac80e91060058c346.json",
+					"name" : "kiss_icp_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "kiss_icp_pipeline::@4dfa1c09646d329e3f37",
+					"jsonFile" : "target-kiss_icp_pipeline-Release-bf027f17ae9337385222.json",
+					"name" : "kiss_icp_pipeline",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kiss_icp_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kiss_icp_uninstall-Release-c29be933f9dc5f145ca9.json",
+					"name" : "kiss_icp_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "odometry_component::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-odometry_component-Release-6a8deaf6a5ba287cca6e.json",
+					"name" : "odometry_component",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "other::@0ea949b180ce896eafe4",
+					"jsonFile" : "target-other-Release-5229c6bd180c0d673533.json",
+					"name" : "other",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-171d67916e5ee316b468.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/victor-22/go2_ws/slam_ws/kiss-icp_ws/build/kiss_icp",
+		"source" : "/home/victor-22/go2_ws/slam_ws/kiss-icp_ws/kiss-icp/ros"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

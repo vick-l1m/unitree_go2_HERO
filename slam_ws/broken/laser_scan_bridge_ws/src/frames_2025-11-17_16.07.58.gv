@@ -1,0 +1,37 @@
+digraph G {
+"odom" -> "base_footprint"[label=" Broadcaster: Authority undetectable\nAverage rate: 149.519\nBuffer length: 10.005\nMost recent transform: 1763366845.380516\nOldest transform: 1763366835.375109\n"];
+"base_link" -> "rslidar"[label=" Broadcaster: Authority undetectable\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"base_footprint" -> "base_link"[label=" Broadcaster: Authority undetectable\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"FL_thigh" -> "FL_calf"[label=" Broadcaster: Authority undetectable\nAverage rate: 19.677\nBuffer length: 10.011\nMost recent transform: 1763366845.378667\nOldest transform: 1763366835.367215\n"];
+"FL_hip" -> "FL_thigh"[label=" Broadcaster: Authority undetectable\nAverage rate: 19.677\nBuffer length: 10.011\nMost recent transform: 1763366845.378667\nOldest transform: 1763366835.367215\n"];
+"base_link" -> "FL_hip"[label=" Broadcaster: Authority undetectable\nAverage rate: 19.677\nBuffer length: 10.011\nMost recent transform: 1763366845.378667\nOldest transform: 1763366835.367215\n"];
+"FR_thigh" -> "FR_calf"[label=" Broadcaster: Authority undetectable\nAverage rate: 19.677\nBuffer length: 10.011\nMost recent transform: 1763366845.378667\nOldest transform: 1763366835.367215\n"];
+"FR_hip" -> "FR_thigh"[label=" Broadcaster: Authority undetectable\nAverage rate: 19.677\nBuffer length: 10.011\nMost recent transform: 1763366845.378667\nOldest transform: 1763366835.367215\n"];
+"base_link" -> "FR_hip"[label=" Broadcaster: Authority undetectable\nAverage rate: 19.677\nBuffer length: 10.011\nMost recent transform: 1763366845.378667\nOldest transform: 1763366835.367215\n"];
+"RL_thigh" -> "RL_calf"[label=" Broadcaster: Authority undetectable\nAverage rate: 19.677\nBuffer length: 10.011\nMost recent transform: 1763366845.378667\nOldest transform: 1763366835.367215\n"];
+"RL_hip" -> "RL_thigh"[label=" Broadcaster: Authority undetectable\nAverage rate: 19.677\nBuffer length: 10.011\nMost recent transform: 1763366845.378667\nOldest transform: 1763366835.367215\n"];
+"base_link" -> "RL_hip"[label=" Broadcaster: Authority undetectable\nAverage rate: 19.677\nBuffer length: 10.011\nMost recent transform: 1763366845.378667\nOldest transform: 1763366835.367215\n"];
+"RR_thigh" -> "RR_calf"[label=" Broadcaster: Authority undetectable\nAverage rate: 19.677\nBuffer length: 10.011\nMost recent transform: 1763366845.378667\nOldest transform: 1763366835.367215\n"];
+"RR_hip" -> "RR_thigh"[label=" Broadcaster: Authority undetectable\nAverage rate: 19.677\nBuffer length: 10.011\nMost recent transform: 1763366845.378667\nOldest transform: 1763366835.367215\n"];
+"base_link" -> "RR_hip"[label=" Broadcaster: Authority undetectable\nAverage rate: 19.677\nBuffer length: 10.011\nMost recent transform: 1763366845.378667\nOldest transform: 1763366835.367215\n"];
+"FL_calflower" -> "FL_calflower1"[label=" Broadcaster: Authority undetectable\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"FL_calf" -> "FL_calflower"[label=" Broadcaster: Authority undetectable\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"FL_calf" -> "FL_foot"[label=" Broadcaster: Authority undetectable\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"FR_calflower" -> "FR_calflower1"[label=" Broadcaster: Authority undetectable\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"FR_calf" -> "FR_calflower"[label=" Broadcaster: Authority undetectable\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"FR_calf" -> "FR_foot"[label=" Broadcaster: Authority undetectable\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"Head_upper" -> "Head_lower"[label=" Broadcaster: Authority undetectable\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"base_link" -> "Head_upper"[label=" Broadcaster: Authority undetectable\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"RL_calflower" -> "RL_calflower1"[label=" Broadcaster: Authority undetectable\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"RL_calf" -> "RL_calflower"[label=" Broadcaster: Authority undetectable\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"RL_calf" -> "RL_foot"[label=" Broadcaster: Authority undetectable\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"RR_calflower" -> "RR_calflower1"[label=" Broadcaster: Authority undetectable\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"RR_calf" -> "RR_calflower"[label=" Broadcaster: Authority undetectable\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"RR_calf" -> "RR_foot"[label=" Broadcaster: Authority undetectable\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"base_link" -> "imu"[label=" Broadcaster: Authority undetectable\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"base_link" -> "radar"[label=" Broadcaster: Authority undetectable\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1763356078.2959642"[ shape=plaintext ] ;
+}->"odom";
+}

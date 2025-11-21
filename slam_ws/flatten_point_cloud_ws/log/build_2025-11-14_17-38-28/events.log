@@ -1,0 +1,172 @@
+[0.000000] (-) TimerEvent: {}
+[0.000389] (flatten_pointcloud) JobQueued: {'identifier': 'flatten_pointcloud', 'dependencies': OrderedDict()}
+[0.000711] (flatten_pointcloud) JobStarted: {'identifier': 'flatten_pointcloud'}
+[0.009181] (flatten_pointcloud) JobProgress: {'identifier': 'flatten_pointcloud', 'progress': 'cmake'}
+[0.010411] (flatten_pointcloud) JobProgress: {'identifier': 'flatten_pointcloud', 'progress': 'build'}
+[0.010470] (flatten_pointcloud) Command: {'cmd': ['/home/victor-22/.local/bin/cmake', '--build', '/home/victor-22/go2_ws/slam_ws/flatten_point_cloud_ws/build/flatten_pointcloud', '--', '-j8', '-l8'], 'cwd': '/home/victor-22/go2_ws/slam_ws/flatten_point_cloud_ws/build/flatten_pointcloud', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'victor-22'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_hg/lib:/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_go/lib:/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_api/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/victor-22'), ('CYCLONEDDS_URI', '<CycloneDDS><Domain><General><Interfaces>\n                            <NetworkInterface name="eno2" priority="default" multicast="default" />\n                        </Interfaces></General></Domain></CycloneDDS>'), ('OLDPWD', '/home/victor-22/go2_ws/slam_ws/flatten_point_cloud_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '3299'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/victor-22/go2_ws/slam_ws/flatten_point_cloud_ws/install:/home/victor-22/unitree_ros2/cyclonedds_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'victor-22'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'victor-22'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/victor-22/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/victor-22/.local/bin'), ('SESSION_MANAGER', 'local/victor22-Latitude-5400:@/tmp/.ICE-unix/1054,unix/victor22-Latitude-5400:/tmp/.ICE-unix/1054'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2a1eefb6_c2c2_4dc6_8a21_5527b4c6f069'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.AIOTF3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.112'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/victor-22/go2_ws/slam_ws/flatten_point_cloud_ws/install/flatten_pointcloud:/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_api:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/victor-22/go2_ws/slam_ws/flatten_point_cloud_ws/build/flatten_pointcloud'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages:/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_go/local/lib/python3.10/dist-packages:/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_api/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/victor-22/go2_ws/slam_ws/flatten_point_cloud_ws/install/flatten_pointcloud:/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_api:/opt/ros/humble')]), 'shell': False}
+[0.100048] (-) TimerEvent: {}
+[0.123177] (flatten_pointcloud) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/flatten_node.dir/src/flatten_node.cpp.o\x1b[0m\n'}
+[0.200191] (-) TimerEvent: {}
+[0.300476] (-) TimerEvent: {}
+[0.400746] (-) TimerEvent: {}
+[0.501039] (-) TimerEvent: {}
+[0.601325] (-) TimerEvent: {}
+[0.701588] (-) TimerEvent: {}
+[0.801886] (-) TimerEvent: {}
+[0.902195] (-) TimerEvent: {}
+[1.002502] (-) TimerEvent: {}
+[1.102810] (-) TimerEvent: {}
+[1.203086] (-) TimerEvent: {}
+[1.303432] (-) TimerEvent: {}
+[1.403809] (-) TimerEvent: {}
+[1.504138] (-) TimerEvent: {}
+[1.604461] (-) TimerEvent: {}
+[1.704729] (-) TimerEvent: {}
+[1.805032] (-) TimerEvent: {}
+[1.905357] (-) TimerEvent: {}
+[2.005724] (-) TimerEvent: {}
+[2.106027] (-) TimerEvent: {}
+[2.206392] (-) TimerEvent: {}
+[2.306768] (-) TimerEvent: {}
+[2.407139] (-) TimerEvent: {}
+[2.507518] (-) TimerEvent: {}
+[2.607817] (-) TimerEvent: {}
+[2.708165] (-) TimerEvent: {}
+[2.808457] (-) TimerEvent: {}
+[2.908755] (-) TimerEvent: {}
+[3.009046] (-) TimerEvent: {}
+[3.109339] (-) TimerEvent: {}
+[3.209651] (-) TimerEvent: {}
+[3.309946] (-) TimerEvent: {}
+[3.410245] (-) TimerEvent: {}
+[3.510555] (-) TimerEvent: {}
+[3.610862] (-) TimerEvent: {}
+[3.711268] (-) TimerEvent: {}
+[3.811566] (-) TimerEvent: {}
+[3.911871] (-) TimerEvent: {}
+[4.012185] (-) TimerEvent: {}
+[4.112532] (-) TimerEvent: {}
+[4.212835] (-) TimerEvent: {}
+[4.313143] (-) TimerEvent: {}
+[4.413508] (-) TimerEvent: {}
+[4.513824] (-) TimerEvent: {}
+[4.614176] (-) TimerEvent: {}
+[4.714546] (-) TimerEvent: {}
+[4.814914] (-) TimerEvent: {}
+[4.915278] (-) TimerEvent: {}
+[5.015652] (-) TimerEvent: {}
+[5.115974] (-) TimerEvent: {}
+[5.216282] (-) TimerEvent: {}
+[5.316589] (-) TimerEvent: {}
+[5.416888] (-) TimerEvent: {}
+[5.517167] (-) TimerEvent: {}
+[5.617452] (-) TimerEvent: {}
+[5.717721] (-) TimerEvent: {}
+[5.818015] (-) TimerEvent: {}
+[5.918275] (-) TimerEvent: {}
+[6.018537] (-) TimerEvent: {}
+[6.118790] (-) TimerEvent: {}
+[6.219075] (-) TimerEvent: {}
+[6.319380] (-) TimerEvent: {}
+[6.419686] (-) TimerEvent: {}
+[6.519980] (-) TimerEvent: {}
+[6.620254] (-) TimerEvent: {}
+[6.720529] (-) TimerEvent: {}
+[6.820807] (-) TimerEvent: {}
+[6.921117] (-) TimerEvent: {}
+[7.021454] (-) TimerEvent: {}
+[7.121834] (-) TimerEvent: {}
+[7.222237] (-) TimerEvent: {}
+[7.322603] (-) TimerEvent: {}
+[7.422899] (-) TimerEvent: {}
+[7.523156] (-) TimerEvent: {}
+[7.623421] (-) TimerEvent: {}
+[7.723663] (-) TimerEvent: {}
+[7.823921] (-) TimerEvent: {}
+[7.924172] (-) TimerEvent: {}
+[8.024461] (-) TimerEvent: {}
+[8.124730] (-) TimerEvent: {}
+[8.224980] (-) TimerEvent: {}
+[8.325244] (-) TimerEvent: {}
+[8.425521] (-) TimerEvent: {}
+[8.525790] (-) TimerEvent: {}
+[8.626046] (-) TimerEvent: {}
+[8.726304] (-) TimerEvent: {}
+[8.826530] (-) TimerEvent: {}
+[8.926800] (-) TimerEvent: {}
+[9.027078] (-) TimerEvent: {}
+[9.127360] (-) TimerEvent: {}
+[9.227614] (-) TimerEvent: {}
+[9.327900] (-) TimerEvent: {}
+[9.428176] (-) TimerEvent: {}
+[9.528452] (-) TimerEvent: {}
+[9.628737] (-) TimerEvent: {}
+[9.728979] (-) TimerEvent: {}
+[9.829257] (-) TimerEvent: {}
+[9.929563] (-) TimerEvent: {}
+[10.029817] (-) TimerEvent: {}
+[10.130075] (-) TimerEvent: {}
+[10.230346] (-) TimerEvent: {}
+[10.330607] (-) TimerEvent: {}
+[10.430877] (-) TimerEvent: {}
+[10.531138] (-) TimerEvent: {}
+[10.631436] (-) TimerEvent: {}
+[10.731703] (-) TimerEvent: {}
+[10.831938] (-) TimerEvent: {}
+[10.932310] (-) TimerEvent: {}
+[11.032706] (-) TimerEvent: {}
+[11.133062] (-) TimerEvent: {}
+[11.233431] (-) TimerEvent: {}
+[11.333830] (-) TimerEvent: {}
+[11.434202] (-) TimerEvent: {}
+[11.534571] (-) TimerEvent: {}
+[11.634885] (-) TimerEvent: {}
+[11.735165] (-) TimerEvent: {}
+[11.835453] (-) TimerEvent: {}
+[11.935754] (-) TimerEvent: {}
+[12.036052] (-) TimerEvent: {}
+[12.136344] (-) TimerEvent: {}
+[12.236654] (-) TimerEvent: {}
+[12.336978] (-) TimerEvent: {}
+[12.437408] (-) TimerEvent: {}
+[12.537744] (-) TimerEvent: {}
+[12.638136] (-) TimerEvent: {}
+[12.702359] (flatten_pointcloud) StdoutLine: {'line': b'[100%] \x1b[1m\x1b[32mLinking CXX executable flatten_node\x1b[0m\n'}
+[12.738269] (-) TimerEvent: {}
+[12.838567] (-) TimerEvent: {}
+[12.938874] (-) TimerEvent: {}
+[13.039191] (-) TimerEvent: {}
+[13.139482] (-) TimerEvent: {}
+[13.239755] (-) TimerEvent: {}
+[13.340072] (-) TimerEvent: {}
+[13.368963] (flatten_pointcloud) StdoutLine: {'line': b'[100%] Built target flatten_node\n'}
+[13.374947] (flatten_pointcloud) CommandEnded: {'returncode': 0}
+[13.376162] (flatten_pointcloud) JobProgress: {'identifier': 'flatten_pointcloud', 'progress': 'install'}
+[13.440200] (-) TimerEvent: {}
+[13.457480] (flatten_pointcloud) Command: {'cmd': ['/home/victor-22/.local/bin/cmake', '--install', '/home/victor-22/go2_ws/slam_ws/flatten_point_cloud_ws/build/flatten_pointcloud'], 'cwd': '/home/victor-22/go2_ws/slam_ws/flatten_point_cloud_ws/build/flatten_pointcloud', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'victor-22'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_hg/lib:/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_go/lib:/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_api/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/victor-22'), ('CYCLONEDDS_URI', '<CycloneDDS><Domain><General><Interfaces>\n                            <NetworkInterface name="eno2" priority="default" multicast="default" />\n                        </Interfaces></General></Domain></CycloneDDS>'), ('OLDPWD', '/home/victor-22/go2_ws/slam_ws/flatten_point_cloud_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '3299'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/victor-22/go2_ws/slam_ws/flatten_point_cloud_ws/install:/home/victor-22/unitree_ros2/cyclonedds_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'victor-22'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'victor-22'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/victor-22/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/victor-22/.local/bin'), ('SESSION_MANAGER', 'local/victor22-Latitude-5400:@/tmp/.ICE-unix/1054,unix/victor22-Latitude-5400:/tmp/.ICE-unix/1054'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2a1eefb6_c2c2_4dc6_8a21_5527b4c6f069'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.AIOTF3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.112'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/victor-22/go2_ws/slam_ws/flatten_point_cloud_ws/install/flatten_pointcloud:/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_api:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/victor-22/go2_ws/slam_ws/flatten_point_cloud_ws/build/flatten_pointcloud'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages:/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_go/local/lib/python3.10/dist-packages:/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_api/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/victor-22/go2_ws/slam_ws/flatten_point_cloud_ws/install/flatten_pointcloud:/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_api:/opt/ros/humble')]), 'shell': False}
+[13.532140] (flatten_pointcloud) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.532678] (flatten_pointcloud) StdoutLine: {'line': b'-- Installing: /home/victor-22/go2_ws/slam_ws/flatten_point_cloud_ws/install/flatten_pointcloud/lib/flatten_pointcloud/flatten_node\n'}
+[13.536596] (flatten_pointcloud) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/victor-22/go2_ws/slam_ws/flatten_point_cloud_ws/install/flatten_pointcloud/lib/flatten_pointcloud/flatten_node" to ""\n'}
+[13.536807] (flatten_pointcloud) StdoutLine: {'line': b'-- Up-to-date: /home/victor-22/go2_ws/slam_ws/flatten_point_cloud_ws/install/flatten_pointcloud/share/flatten_pointcloud/launch\n'}
+[13.536893] (flatten_pointcloud) StdoutLine: {'line': b'-- Up-to-date: /home/victor-22/go2_ws/slam_ws/flatten_point_cloud_ws/install/flatten_pointcloud/share/flatten_pointcloud/launch/flatten_launch.py\n'}
+[13.536970] (flatten_pointcloud) StdoutLine: {'line': b'-- Up-to-date: /home/victor-22/go2_ws/slam_ws/flatten_point_cloud_ws/install/flatten_pointcloud/share/flatten_pointcloud/config\n'}
+[13.537044] (flatten_pointcloud) StdoutLine: {'line': b'-- Installing: /home/victor-22/go2_ws/slam_ws/flatten_point_cloud_ws/install/flatten_pointcloud/share/flatten_pointcloud/config/flatten_params.yaml\n'}
+[13.537155] (flatten_pointcloud) StdoutLine: {'line': b'-- Up-to-date: /home/victor-22/go2_ws/slam_ws/flatten_point_cloud_ws/install/flatten_pointcloud/share/ament_index/resource_index/package_run_dependencies/flatten_pointcloud\n'}
+[13.537238] (flatten_pointcloud) StdoutLine: {'line': b'-- Up-to-date: /home/victor-22/go2_ws/slam_ws/flatten_point_cloud_ws/install/flatten_pointcloud/share/ament_index/resource_index/parent_prefix_path/flatten_pointcloud\n'}
+[13.537384] (flatten_pointcloud) StdoutLine: {'line': b'-- Up-to-date: /home/victor-22/go2_ws/slam_ws/flatten_point_cloud_ws/install/flatten_pointcloud/share/flatten_pointcloud/environment/ament_prefix_path.sh\n'}
+[13.537455] (flatten_pointcloud) StdoutLine: {'line': b'-- Up-to-date: /home/victor-22/go2_ws/slam_ws/flatten_point_cloud_ws/install/flatten_pointcloud/share/flatten_pointcloud/environment/ament_prefix_path.dsv\n'}
+[13.537527] (flatten_pointcloud) StdoutLine: {'line': b'-- Up-to-date: /home/victor-22/go2_ws/slam_ws/flatten_point_cloud_ws/install/flatten_pointcloud/share/flatten_pointcloud/environment/path.sh\n'}
+[13.537586] (flatten_pointcloud) StdoutLine: {'line': b'-- Up-to-date: /home/victor-22/go2_ws/slam_ws/flatten_point_cloud_ws/install/flatten_pointcloud/share/flatten_pointcloud/environment/path.dsv\n'}
+[13.537641] (flatten_pointcloud) StdoutLine: {'line': b'-- Up-to-date: /home/victor-22/go2_ws/slam_ws/flatten_point_cloud_ws/install/flatten_pointcloud/share/flatten_pointcloud/local_setup.bash\n'}
+[13.537696] (flatten_pointcloud) StdoutLine: {'line': b'-- Up-to-date: /home/victor-22/go2_ws/slam_ws/flatten_point_cloud_ws/install/flatten_pointcloud/share/flatten_pointcloud/local_setup.sh\n'}
+[13.537750] (flatten_pointcloud) StdoutLine: {'line': b'-- Up-to-date: /home/victor-22/go2_ws/slam_ws/flatten_point_cloud_ws/install/flatten_pointcloud/share/flatten_pointcloud/local_setup.zsh\n'}
+[13.537804] (flatten_pointcloud) StdoutLine: {'line': b'-- Up-to-date: /home/victor-22/go2_ws/slam_ws/flatten_point_cloud_ws/install/flatten_pointcloud/share/flatten_pointcloud/local_setup.dsv\n'}
+[13.537858] (flatten_pointcloud) StdoutLine: {'line': b'-- Installing: /home/victor-22/go2_ws/slam_ws/flatten_point_cloud_ws/install/flatten_pointcloud/share/flatten_pointcloud/package.dsv\n'}
+[13.537911] (flatten_pointcloud) StdoutLine: {'line': b'-- Up-to-date: /home/victor-22/go2_ws/slam_ws/flatten_point_cloud_ws/install/flatten_pointcloud/share/ament_index/resource_index/packages/flatten_pointcloud\n'}
+[13.537965] (flatten_pointcloud) StdoutLine: {'line': b'-- Up-to-date: /home/victor-22/go2_ws/slam_ws/flatten_point_cloud_ws/install/flatten_pointcloud/share/flatten_pointcloud/cmake/flatten_pointcloudConfig.cmake\n'}
+[13.538035] (flatten_pointcloud) StdoutLine: {'line': b'-- Up-to-date: /home/victor-22/go2_ws/slam_ws/flatten_point_cloud_ws/install/flatten_pointcloud/share/flatten_pointcloud/cmake/flatten_pointcloudConfig-version.cmake\n'}
+[13.538094] (flatten_pointcloud) StdoutLine: {'line': b'-- Up-to-date: /home/victor-22/go2_ws/slam_ws/flatten_point_cloud_ws/install/flatten_pointcloud/share/flatten_pointcloud/package.xml\n'}
+[13.538774] (flatten_pointcloud) CommandEnded: {'returncode': 0}
+[13.540316] (-) TimerEvent: {}
+[13.556561] (flatten_pointcloud) JobEnded: {'identifier': 'flatten_pointcloud', 'rc': 0}
+[13.557144] (-) EventReactorShutdown: {}

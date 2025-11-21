@@ -1,0 +1,99 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/victor-22/.local/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:16 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/home/victor-22/go2_ws/slam_ws/kiss-icp_ws/install/kiss_icp/bin/"
+      - "/home/victor-22/go2_ws/slam_ws/kiss-icp_ws/install/kiss_icp/sbin/"
+      - "/home/victor-22/go2_ws/slam_ws/kiss-icp_ws/install/kiss_icp/"
+      - "/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_hg/bin/"
+      - "/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_hg/sbin/"
+      - "/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_hg/"
+      - "/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_go/bin/"
+      - "/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_go/sbin/"
+      - "/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_go/"
+      - "/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_api/bin/"
+      - "/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_api/sbin/"
+      - "/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_api/"
+      - "/opt/ros/humble/bin/"
+      - "/opt/ros/humble/sbin/"
+      - "/opt/ros/humble/"
+      - "/opt/ros/humble/bin/"
+      - "/home/victor-22/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/home/victor-22/go2_ws/slam_ws/kiss-icp_ws/install/kiss_icp/bin/uname"
+      - "/home/victor-22/go2_ws/slam_ws/kiss-icp_ws/install/kiss_icp/sbin/uname"
+      - "/home/victor-22/go2_ws/slam_ws/kiss-icp_ws/install/kiss_icp/uname"
+      - "/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_hg/bin/uname"
+      - "/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_hg/sbin/uname"
+      - "/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_hg/uname"
+      - "/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_go/bin/uname"
+      - "/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_go/sbin/uname"
+      - "/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_go/uname"
+      - "/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_api/bin/uname"
+      - "/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_api/sbin/uname"
+      - "/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_api/uname"
+      - "/opt/ros/humble/bin/uname"
+      - "/opt/ros/humble/sbin/uname"
+      - "/opt/ros/humble/uname"
+      - "/opt/ros/humble/bin/uname"
+      - "/home/victor-22/.local/bin/uname"
+      - "/usr/local/sbin/uname"
+      - "/usr/local/bin/uname"
+      - "/usr/sbin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/victor-22/go2_ws/slam_ws/kiss-icp_ws/install/kiss_icp"
+        - "/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_hg"
+        - "/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_go"
+        - "/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_api"
+        - "/opt/ros/humble"
+      ENV{PATH}:
+        - "/opt/ros/humble/bin"
+        - "/home/victor-22/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/victor-22/.local/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/victor-22/.local/lib/python3.10/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:16 (project)"
+    message: |
+      The system is: Linux - 6.8.0-87-generic - x86_64
+...

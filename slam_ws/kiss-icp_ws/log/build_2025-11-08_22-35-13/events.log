@@ -1,0 +1,472 @@
+[0.000000] (-) TimerEvent: {}
+[0.000111] (kiss_icp) JobQueued: {'identifier': 'kiss_icp', 'dependencies': OrderedDict()}
+[0.000138] (kiss_icp) JobStarted: {'identifier': 'kiss_icp'}
+[0.006531] (kiss_icp) JobProgress: {'identifier': 'kiss_icp', 'progress': 'cmake'}
+[0.006758] (kiss_icp) Command: {'cmd': ['/home/victor-22/.local/bin/cmake', '/home/victor-22/go2_ws/slam_ws/kiss-icp_ws/kiss-icp/ros', '-DCMAKE_INSTALL_PREFIX=/home/victor-22/go2_ws/slam_ws/kiss-icp_ws/install/kiss_icp'], 'cwd': '/home/victor-22/go2_ws/slam_ws/kiss-icp_ws/build/kiss_icp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'victor-22'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/victor-22/go2_ws/slam_ws/kiss-icp_ws/install/kiss_icp/lib:/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_hg/lib:/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_go/lib:/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_api/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/victor-22'), ('CYCLONEDDS_URI', '<CycloneDDS><Domain><General><Interfaces>\n                            <NetworkInterface name="eno2" priority="default" multicast="default" />\n                        </Interfaces></General></Domain></CycloneDDS>'), ('OLDPWD', '/home/victor-22/go2_ws/slam_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2770'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/victor-22/go2_ws/slam_ws/kiss-icp_ws/install:/home/victor-22/unitree_ros2/cyclonedds_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'victor-22'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'victor-22'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/victor-22/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/victor-22/.local/bin'), ('SESSION_MANAGER', 'local/victor22-Latitude-5400:@/tmp/.ICE-unix/1091,unix/victor22-Latitude-5400:/tmp/.ICE-unix/1091'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/cdcb36da_19ea_43ce_b564_9a8c7a577603'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.JK46E3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.105'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/victor-22/go2_ws/slam_ws/kiss-icp_ws/install/kiss_icp:/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_api:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/victor-22/go2_ws/slam_ws/kiss-icp_ws/build/kiss_icp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages:/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_go/local/lib/python3.10/dist-packages:/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_api/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/victor-22/go2_ws/slam_ws/kiss-icp_ws/install/kiss_icp:/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_api:/opt/ros/humble')]), 'shell': False}
+[0.099059] (-) TimerEvent: {}
+[0.156333] (kiss_icp) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.167540] (kiss_icp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199156] (-) TimerEvent: {}
+[0.231952] (kiss_icp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.248276] (kiss_icp) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.248697] (kiss_icp) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.249370] (kiss_icp) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.258421] (kiss_icp) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /home/victor-22/go2_ws/slam_ws/kiss-icp_ws/kiss-icp/cpp/kiss_icp/3rdparty/find_dependencies.cmake:25 (cmake_policy):\n'}
+[0.258571] (kiss_icp) StderrLine: {'line': b'  The OLD behavior for policy CMP0135 will be removed from a future version\n'}
+[0.258630] (kiss_icp) StderrLine: {'line': b'  of CMake.\n'}
+[0.258683] (kiss_icp) StderrLine: {'line': b'\n'}
+[0.258734] (kiss_icp) StderrLine: {'line': b'  The cmake-policies(7) manual explains that the OLD behaviors of all\n'}
+[0.258785] (kiss_icp) StderrLine: {'line': b'  policies are deprecated and that a policy should be set to OLD only under\n'}
+[0.258834] (kiss_icp) StderrLine: {'line': b'  specific short-term circumstances.  Projects should be ported to the NEW\n'}
+[0.258882] (kiss_icp) StderrLine: {'line': b'  behavior and not rely on setting a policy to OLD.\n'}
+[0.258946] (kiss_icp) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.258996] (kiss_icp) StderrLine: {'line': b'  /home/victor-22/go2_ws/slam_ws/kiss-icp_ws/kiss-icp/cpp/kiss_icp/CMakeLists.txt:48 (include)\n'}
+[0.259045] (kiss_icp) StderrLine: {'line': b'\n'}
+[0.259093] (kiss_icp) StderrLine: {'line': b'\x1b[0m\n'}
+[0.299283] (-) TimerEvent: {}
+[0.399769] (-) TimerEvent: {}
+[0.500169] (-) TimerEvent: {}
+[0.601214] (-) TimerEvent: {}
+[0.702096] (-) TimerEvent: {}
+[0.803111] (-) TimerEvent: {}
+[0.904149] (-) TimerEvent: {}
+[1.005119] (-) TimerEvent: {}
+[1.105872] (-) TimerEvent: {}
+[1.207063] (-) TimerEvent: {}
+[1.307731] (-) TimerEvent: {}
+[1.408229] (-) TimerEvent: {}
+[1.508715] (-) TimerEvent: {}
+[1.526986] (kiss_icp) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.537280] (kiss_icp) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.589643] (kiss_icp) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.607843] (kiss_icp) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.608305] (kiss_icp) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.608784] (kiss_icp) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.608938] (-) TimerEvent: {}
+[1.709150] (-) TimerEvent: {}
+[1.809492] (-) TimerEvent: {}
+[1.910096] (-) TimerEvent: {}
+[2.010576] (-) TimerEvent: {}
+[2.111268] (-) TimerEvent: {}
+[2.211941] (-) TimerEvent: {}
+[2.312746] (-) TimerEvent: {}
+[2.413718] (-) TimerEvent: {}
+[2.514708] (-) TimerEvent: {}
+[2.615438] (-) TimerEvent: {}
+[2.716060] (-) TimerEvent: {}
+[2.801302] (kiss_icp) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /home/victor-22/go2_ws/slam_ws/kiss-icp_ws/build/kiss_icp/_deps/tessil-src/CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[2.801520] (kiss_icp) StderrLine: {'line': b'  Compatibility with CMake < 3.10 will be removed from a future version of\n'}
+[2.801623] (kiss_icp) StderrLine: {'line': b'  CMake.\n'}
+[2.801715] (kiss_icp) StderrLine: {'line': b'\n'}
+[2.801801] (kiss_icp) StderrLine: {'line': b'  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax\n'}
+[2.801888] (kiss_icp) StderrLine: {'line': b'  to tell CMake that the project requires at least <min> but has been updated\n'}
+[2.801996] (kiss_icp) StderrLine: {'line': b'  to work with policies introduced by <max> or earlier.\n'}
+[2.802085] (kiss_icp) StderrLine: {'line': b'\n'}
+[2.802170] (kiss_icp) StderrLine: {'line': b'\x1b[0m\n'}
+[2.812754] (kiss_icp) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.816178] (-) TimerEvent: {}
+[2.916492] (-) TimerEvent: {}
+[2.956693] (kiss_icp) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter\n'}
+[3.016599] (-) TimerEvent: {}
+[3.064364] (kiss_icp) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[3.116131] (kiss_icp) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.116676] (-) TimerEvent: {}
+[3.124809] (kiss_icp) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.141592] (kiss_icp) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.165435] (kiss_icp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.192289] (kiss_icp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.216828] (-) TimerEvent: {}
+[3.257646] (kiss_icp) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[3.285392] (kiss_icp) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[3.316975] (-) TimerEvent: {}
+[3.335706] (kiss_icp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.339014] (kiss_icp) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[3.372311] (kiss_icp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[3.383361] (kiss_icp) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.417081] (-) TimerEvent: {}
+[3.448950] (kiss_icp) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[3.449890] (kiss_icp) StdoutLine: {'line': b'-- Found Threads: TRUE\n'}
+[3.511228] (kiss_icp) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.15 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[3.517178] (-) TimerEvent: {}
+[3.550282] (kiss_icp) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[3.579176] (kiss_icp) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[3.617347] (-) TimerEvent: {}
+[3.687867] (kiss_icp) StdoutLine: {'line': b'-- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[3.717493] (-) TimerEvent: {}
+[3.765660] (kiss_icp) StdoutLine: {'line': b'-- Configuring done (3.7s)\n'}
+[3.795360] (kiss_icp) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[3.801142] (kiss_icp) StdoutLine: {'line': b'-- Build files have been written to: /home/victor-22/go2_ws/slam_ws/kiss-icp_ws/build/kiss_icp\n'}
+[3.812875] (kiss_icp) CommandEnded: {'returncode': 0}
+[3.814661] (kiss_icp) JobProgress: {'identifier': 'kiss_icp', 'progress': 'build'}
+[3.814886] (kiss_icp) Command: {'cmd': ['/home/victor-22/.local/bin/cmake', '--build', '/home/victor-22/go2_ws/slam_ws/kiss-icp_ws/build/kiss_icp', '--', '-j8', '-l8'], 'cwd': '/home/victor-22/go2_ws/slam_ws/kiss-icp_ws/build/kiss_icp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'victor-22'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/victor-22/go2_ws/slam_ws/kiss-icp_ws/install/kiss_icp/lib:/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_hg/lib:/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_go/lib:/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_api/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/victor-22'), ('CYCLONEDDS_URI', '<CycloneDDS><Domain><General><Interfaces>\n                            <NetworkInterface name="eno2" priority="default" multicast="default" />\n                        </Interfaces></General></Domain></CycloneDDS>'), ('OLDPWD', '/home/victor-22/go2_ws/slam_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2770'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/victor-22/go2_ws/slam_ws/kiss-icp_ws/install:/home/victor-22/unitree_ros2/cyclonedds_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'victor-22'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'victor-22'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/victor-22/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/victor-22/.local/bin'), ('SESSION_MANAGER', 'local/victor22-Latitude-5400:@/tmp/.ICE-unix/1091,unix/victor22-Latitude-5400:/tmp/.ICE-unix/1091'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/cdcb36da_19ea_43ce_b564_9a8c7a577603'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.JK46E3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.105'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/victor-22/go2_ws/slam_ws/kiss-icp_ws/install/kiss_icp:/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_api:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/victor-22/go2_ws/slam_ws/kiss-icp_ws/build/kiss_icp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages:/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_go/local/lib/python3.10/dist-packages:/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_api/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/victor-22/go2_ws/slam_ws/kiss-icp_ws/install/kiss_icp:/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_api:/opt/ros/humble')]), 'shell': False}
+[3.817592] (-) TimerEvent: {}
+[3.905993] (kiss_icp) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/kiss_icp_node.dir/rclcpp_components/node_main_kiss_icp_node.cpp.o\x1b[0m\n'}
+[3.906242] (kiss_icp) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object kiss_icp/core/CMakeFiles/kiss_icp_core.dir/Registration.cpp.o\x1b[0m\n'}
+[3.906392] (kiss_icp) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object kiss_icp/metrics/CMakeFiles/kiss_icp_metrics.dir/Metrics.cpp.o\x1b[0m\n'}
+[3.906508] (kiss_icp) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object kiss_icp/core/CMakeFiles/kiss_icp_core.dir/VoxelHashMap.cpp.o\x1b[0m\n'}
+[3.906647] (kiss_icp) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object kiss_icp/core/CMakeFiles/kiss_icp_core.dir/VoxelUtils.cpp.o\x1b[0m\n'}
+[3.906742] (kiss_icp) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object kiss_icp/core/CMakeFiles/kiss_icp_core.dir/Preprocessing.cpp.o\x1b[0m\n'}
+[3.906834] (kiss_icp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object kiss_icp/core/CMakeFiles/kiss_icp_core.dir/Threshold.cpp.o\x1b[0m\n'}
+[3.917985] (-) TimerEvent: {}
+[4.018252] (-) TimerEvent: {}
+[4.119954] (-) TimerEvent: {}
+[4.220194] (-) TimerEvent: {}
+[4.320476] (-) TimerEvent: {}
+[4.420763] (-) TimerEvent: {}
+[4.521077] (-) TimerEvent: {}
+[4.621455] (-) TimerEvent: {}
+[4.724981] (-) TimerEvent: {}
+[4.829962] (-) TimerEvent: {}
+[4.930269] (-) TimerEvent: {}
+[5.031379] (-) TimerEvent: {}
+[5.131713] (-) TimerEvent: {}
+[5.237835] (-) TimerEvent: {}
+[5.338201] (-) TimerEvent: {}
+[5.440217] (-) TimerEvent: {}
+[5.540717] (-) TimerEvent: {}
+[5.641219] (-) TimerEvent: {}
+[5.741577] (-) TimerEvent: {}
+[5.843999] (-) TimerEvent: {}
+[5.944330] (-) TimerEvent: {}
+[6.045967] (-) TimerEvent: {}
+[6.146280] (-) TimerEvent: {}
+[6.246596] (-) TimerEvent: {}
+[6.346942] (-) TimerEvent: {}
+[6.447285] (-) TimerEvent: {}
+[6.547633] (-) TimerEvent: {}
+[6.650219] (-) TimerEvent: {}
+[6.750563] (-) TimerEvent: {}
+[6.850981] (-) TimerEvent: {}
+[6.951435] (-) TimerEvent: {}
+[7.051774] (-) TimerEvent: {}
+[7.152138] (-) TimerEvent: {}
+[7.252512] (-) TimerEvent: {}
+[7.352883] (-) TimerEvent: {}
+[7.453291] (-) TimerEvent: {}
+[7.553759] (-) TimerEvent: {}
+[7.654170] (-) TimerEvent: {}
+[7.754571] (-) TimerEvent: {}
+[7.854966] (-) TimerEvent: {}
+[7.955358] (-) TimerEvent: {}
+[8.055753] (-) TimerEvent: {}
+[8.156140] (-) TimerEvent: {}
+[8.256503] (-) TimerEvent: {}
+[8.356869] (-) TimerEvent: {}
+[8.457247] (-) TimerEvent: {}
+[8.557599] (-) TimerEvent: {}
+[8.658001] (-) TimerEvent: {}
+[8.758381] (-) TimerEvent: {}
+[8.858742] (-) TimerEvent: {}
+[8.959120] (-) TimerEvent: {}
+[9.059523] (-) TimerEvent: {}
+[9.159859] (-) TimerEvent: {}
+[9.260148] (-) TimerEvent: {}
+[9.360452] (-) TimerEvent: {}
+[9.460789] (-) TimerEvent: {}
+[9.539463] (kiss_icp) StdoutLine: {'line': b'[ 57%] \x1b[1m\x1b[32mLinking CXX executable kiss_icp_node\x1b[0m\n'}
+[9.560917] (-) TimerEvent: {}
+[9.661290] (-) TimerEvent: {}
+[9.691012] (kiss_icp) StdoutLine: {'line': b'[ 57%] Built target kiss_icp_node\n'}
+[9.761422] (-) TimerEvent: {}
+[9.861747] (-) TimerEvent: {}
+[9.962014] (-) TimerEvent: {}
+[10.062377] (-) TimerEvent: {}
+[10.162718] (-) TimerEvent: {}
+[10.263005] (-) TimerEvent: {}
+[10.363401] (-) TimerEvent: {}
+[10.463759] (-) TimerEvent: {}
+[10.564105] (-) TimerEvent: {}
+[10.664455] (-) TimerEvent: {}
+[10.764770] (-) TimerEvent: {}
+[10.865077] (-) TimerEvent: {}
+[10.965416] (-) TimerEvent: {}
+[11.065747] (-) TimerEvent: {}
+[11.166073] (-) TimerEvent: {}
+[11.266390] (-) TimerEvent: {}
+[11.366711] (-) TimerEvent: {}
+[11.466998] (-) TimerEvent: {}
+[11.567318] (-) TimerEvent: {}
+[11.667635] (-) TimerEvent: {}
+[11.768028] (-) TimerEvent: {}
+[11.868349] (-) TimerEvent: {}
+[11.968668] (-) TimerEvent: {}
+[12.068984] (-) TimerEvent: {}
+[12.169308] (-) TimerEvent: {}
+[12.269616] (-) TimerEvent: {}
+[12.369946] (-) TimerEvent: {}
+[12.470238] (-) TimerEvent: {}
+[12.570536] (-) TimerEvent: {}
+[12.670836] (-) TimerEvent: {}
+[12.771099] (-) TimerEvent: {}
+[12.871384] (-) TimerEvent: {}
+[12.971679] (-) TimerEvent: {}
+[13.071991] (-) TimerEvent: {}
+[13.172291] (-) TimerEvent: {}
+[13.272622] (-) TimerEvent: {}
+[13.372950] (-) TimerEvent: {}
+[13.473246] (-) TimerEvent: {}
+[13.477419] (kiss_icp) StdoutLine: {'line': b'[ 64%] \x1b[1m\x1b[32mLinking CXX static library libkiss_icp_core.a\x1b[0m\n'}
+[13.500971] (kiss_icp) StdoutLine: {'line': b'[ 64%] Built target kiss_icp_core\n'}
+[13.511039] (kiss_icp) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object kiss_icp/pipeline/CMakeFiles/kiss_icp_pipeline.dir/KissICP.cpp.o\x1b[0m\n'}
+[13.573372] (-) TimerEvent: {}
+[13.673732] (-) TimerEvent: {}
+[13.774101] (-) TimerEvent: {}
+[13.874434] (-) TimerEvent: {}
+[13.974809] (-) TimerEvent: {}
+[14.075178] (-) TimerEvent: {}
+[14.175574] (-) TimerEvent: {}
+[14.275919] (-) TimerEvent: {}
+[14.376284] (-) TimerEvent: {}
+[14.476671] (-) TimerEvent: {}
+[14.577020] (-) TimerEvent: {}
+[14.677375] (-) TimerEvent: {}
+[14.777712] (-) TimerEvent: {}
+[14.878056] (-) TimerEvent: {}
+[14.978407] (-) TimerEvent: {}
+[15.078749] (-) TimerEvent: {}
+[15.179061] (-) TimerEvent: {}
+[15.279420] (-) TimerEvent: {}
+[15.379749] (-) TimerEvent: {}
+[15.458650] (kiss_icp) StdoutLine: {'line': b'[ 78%] \x1b[1m\x1b[32mLinking CXX static library libkiss_icp_pipeline.a\x1b[0m\n'}
+[15.472056] (kiss_icp) StdoutLine: {'line': b'[ 78%] Built target kiss_icp_pipeline\n'}
+[15.479850] (-) TimerEvent: {}
+[15.481543] (kiss_icp) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object CMakeFiles/odometry_component.dir/src/OdometryServer.cpp.o\x1b[0m\n'}
+[15.580002] (-) TimerEvent: {}
+[15.680366] (-) TimerEvent: {}
+[15.780678] (-) TimerEvent: {}
+[15.880955] (-) TimerEvent: {}
+[15.981264] (-) TimerEvent: {}
+[16.081620] (-) TimerEvent: {}
+[16.182005] (-) TimerEvent: {}
+[16.282379] (-) TimerEvent: {}
+[16.382746] (-) TimerEvent: {}
+[16.483134] (-) TimerEvent: {}
+[16.583481] (-) TimerEvent: {}
+[16.683857] (-) TimerEvent: {}
+[16.784250] (-) TimerEvent: {}
+[16.884605] (-) TimerEvent: {}
+[16.984939] (-) TimerEvent: {}
+[17.085267] (-) TimerEvent: {}
+[17.185609] (-) TimerEvent: {}
+[17.285968] (-) TimerEvent: {}
+[17.386335] (-) TimerEvent: {}
+[17.486714] (-) TimerEvent: {}
+[17.587076] (-) TimerEvent: {}
+[17.687435] (-) TimerEvent: {}
+[17.787817] (-) TimerEvent: {}
+[17.888208] (-) TimerEvent: {}
+[17.988567] (-) TimerEvent: {}
+[18.088943] (-) TimerEvent: {}
+[18.189293] (-) TimerEvent: {}
+[18.289650] (-) TimerEvent: {}
+[18.390027] (-) TimerEvent: {}
+[18.490430] (-) TimerEvent: {}
+[18.590811] (-) TimerEvent: {}
+[18.691258] (-) TimerEvent: {}
+[18.791677] (-) TimerEvent: {}
+[18.892093] (-) TimerEvent: {}
+[18.992509] (-) TimerEvent: {}
+[19.092887] (-) TimerEvent: {}
+[19.193268] (-) TimerEvent: {}
+[19.293656] (-) TimerEvent: {}
+[19.394015] (-) TimerEvent: {}
+[19.494335] (-) TimerEvent: {}
+[19.496848] (kiss_icp) StdoutLine: {'line': b'[ 92%] \x1b[1m\x1b[32mLinking CXX static library libkiss_icp_metrics.a\x1b[0m\n'}
+[19.516533] (kiss_icp) StdoutLine: {'line': b'[ 92%] Built target kiss_icp_metrics\n'}
+[19.594486] (-) TimerEvent: {}
+[19.694835] (-) TimerEvent: {}
+[19.795399] (-) TimerEvent: {}
+[19.895744] (-) TimerEvent: {}
+[19.996068] (-) TimerEvent: {}
+[20.096402] (-) TimerEvent: {}
+[20.196733] (-) TimerEvent: {}
+[20.297066] (-) TimerEvent: {}
+[20.397392] (-) TimerEvent: {}
+[20.497730] (-) TimerEvent: {}
+[20.598047] (-) TimerEvent: {}
+[20.698367] (-) TimerEvent: {}
+[20.798695] (-) TimerEvent: {}
+[20.898998] (-) TimerEvent: {}
+[20.999316] (-) TimerEvent: {}
+[21.099640] (-) TimerEvent: {}
+[21.199969] (-) TimerEvent: {}
+[21.300283] (-) TimerEvent: {}
+[21.400605] (-) TimerEvent: {}
+[21.500925] (-) TimerEvent: {}
+[21.601260] (-) TimerEvent: {}
+[21.701591] (-) TimerEvent: {}
+[21.801918] (-) TimerEvent: {}
+[21.902247] (-) TimerEvent: {}
+[22.002573] (-) TimerEvent: {}
+[22.102890] (-) TimerEvent: {}
+[22.203225] (-) TimerEvent: {}
+[22.303539] (-) TimerEvent: {}
+[22.403846] (-) TimerEvent: {}
+[22.504194] (-) TimerEvent: {}
+[22.604602] (-) TimerEvent: {}
+[22.704989] (-) TimerEvent: {}
+[22.805375] (-) TimerEvent: {}
+[22.905766] (-) TimerEvent: {}
+[23.006188] (-) TimerEvent: {}
+[23.106565] (-) TimerEvent: {}
+[23.206971] (-) TimerEvent: {}
+[23.307338] (-) TimerEvent: {}
+[23.407673] (-) TimerEvent: {}
+[23.507997] (-) TimerEvent: {}
+[23.608314] (-) TimerEvent: {}
+[23.708645] (-) TimerEvent: {}
+[23.808982] (-) TimerEvent: {}
+[23.909295] (-) TimerEvent: {}
+[24.009617] (-) TimerEvent: {}
+[24.109969] (-) TimerEvent: {}
+[24.210304] (-) TimerEvent: {}
+[24.310611] (-) TimerEvent: {}
+[24.410971] (-) TimerEvent: {}
+[24.511274] (-) TimerEvent: {}
+[24.611600] (-) TimerEvent: {}
+[24.711957] (-) TimerEvent: {}
+[24.812334] (-) TimerEvent: {}
+[24.912698] (-) TimerEvent: {}
+[25.013029] (-) TimerEvent: {}
+[25.113359] (-) TimerEvent: {}
+[25.213672] (-) TimerEvent: {}
+[25.313976] (-) TimerEvent: {}
+[25.414280] (-) TimerEvent: {}
+[25.514589] (-) TimerEvent: {}
+[25.614913] (-) TimerEvent: {}
+[25.715216] (-) TimerEvent: {}
+[25.815544] (-) TimerEvent: {}
+[25.915812] (-) TimerEvent: {}
+[26.016179] (-) TimerEvent: {}
+[26.116501] (-) TimerEvent: {}
+[26.216835] (-) TimerEvent: {}
+[26.317108] (-) TimerEvent: {}
+[26.417432] (-) TimerEvent: {}
+[26.517727] (-) TimerEvent: {}
+[26.618047] (-) TimerEvent: {}
+[26.718379] (-) TimerEvent: {}
+[26.818681] (-) TimerEvent: {}
+[26.918976] (-) TimerEvent: {}
+[27.019307] (-) TimerEvent: {}
+[27.119633] (-) TimerEvent: {}
+[27.219962] (-) TimerEvent: {}
+[27.320265] (-) TimerEvent: {}
+[27.420652] (-) TimerEvent: {}
+[27.521040] (-) TimerEvent: {}
+[27.621412] (-) TimerEvent: {}
+[27.721759] (-) TimerEvent: {}
+[27.822124] (-) TimerEvent: {}
+[27.922438] (-) TimerEvent: {}
+[28.022762] (-) TimerEvent: {}
+[28.123096] (-) TimerEvent: {}
+[28.223405] (-) TimerEvent: {}
+[28.323701] (-) TimerEvent: {}
+[28.424018] (-) TimerEvent: {}
+[28.524344] (-) TimerEvent: {}
+[28.624665] (-) TimerEvent: {}
+[28.724988] (-) TimerEvent: {}
+[28.825301] (-) TimerEvent: {}
+[28.925603] (-) TimerEvent: {}
+[29.025942] (-) TimerEvent: {}
+[29.126259] (-) TimerEvent: {}
+[29.226575] (-) TimerEvent: {}
+[29.326879] (-) TimerEvent: {}
+[29.427236] (-) TimerEvent: {}
+[29.527554] (-) TimerEvent: {}
+[29.627868] (-) TimerEvent: {}
+[29.728193] (-) TimerEvent: {}
+[29.828501] (-) TimerEvent: {}
+[29.928821] (-) TimerEvent: {}
+[30.029137] (-) TimerEvent: {}
+[30.129432] (-) TimerEvent: {}
+[30.229778] (-) TimerEvent: {}
+[30.330111] (-) TimerEvent: {}
+[30.430446] (-) TimerEvent: {}
+[30.530786] (-) TimerEvent: {}
+[30.631124] (-) TimerEvent: {}
+[30.731449] (-) TimerEvent: {}
+[30.831758] (-) TimerEvent: {}
+[30.932094] (-) TimerEvent: {}
+[31.032428] (-) TimerEvent: {}
+[31.132745] (-) TimerEvent: {}
+[31.232996] (-) TimerEvent: {}
+[31.333307] (-) TimerEvent: {}
+[31.433621] (-) TimerEvent: {}
+[31.533956] (-) TimerEvent: {}
+[31.634270] (-) TimerEvent: {}
+[31.734609] (-) TimerEvent: {}
+[31.834880] (-) TimerEvent: {}
+[31.935202] (-) TimerEvent: {}
+[32.035528] (-) TimerEvent: {}
+[32.135853] (-) TimerEvent: {}
+[32.236184] (-) TimerEvent: {}
+[32.336460] (-) TimerEvent: {}
+[32.436804] (-) TimerEvent: {}
+[32.537144] (-) TimerEvent: {}
+[32.637434] (-) TimerEvent: {}
+[32.737756] (-) TimerEvent: {}
+[32.838039] (-) TimerEvent: {}
+[32.938337] (-) TimerEvent: {}
+[33.038668] (-) TimerEvent: {}
+[33.138993] (-) TimerEvent: {}
+[33.239318] (-) TimerEvent: {}
+[33.339627] (-) TimerEvent: {}
+[33.439958] (-) TimerEvent: {}
+[33.540281] (-) TimerEvent: {}
+[33.640639] (-) TimerEvent: {}
+[33.740962] (-) TimerEvent: {}
+[33.841299] (-) TimerEvent: {}
+[33.941623] (-) TimerEvent: {}
+[34.041958] (-) TimerEvent: {}
+[34.142272] (-) TimerEvent: {}
+[34.242580] (-) TimerEvent: {}
+[34.342878] (-) TimerEvent: {}
+[34.443212] (-) TimerEvent: {}
+[34.543531] (-) TimerEvent: {}
+[34.643851] (-) TimerEvent: {}
+[34.744201] (-) TimerEvent: {}
+[34.844506] (-) TimerEvent: {}
+[34.944831] (-) TimerEvent: {}
+[35.045165] (-) TimerEvent: {}
+[35.145477] (-) TimerEvent: {}
+[35.245776] (-) TimerEvent: {}
+[35.346093] (-) TimerEvent: {}
+[35.386796] (kiss_icp) StdoutLine: {'line': b'[100%] \x1b[1m\x1b[32mLinking CXX shared library libodometry_component.so\x1b[0m\n'}
+[35.446213] (-) TimerEvent: {}
+[35.546522] (-) TimerEvent: {}
+[35.614968] (kiss_icp) StdoutLine: {'line': b'[100%] Built target odometry_component\n'}
+[35.620987] (kiss_icp) CommandEnded: {'returncode': 0}
+[35.622473] (kiss_icp) JobProgress: {'identifier': 'kiss_icp', 'progress': 'install'}
+[35.646619] (-) TimerEvent: {}
+[35.704014] (kiss_icp) Command: {'cmd': ['/home/victor-22/.local/bin/cmake', '--install', '/home/victor-22/go2_ws/slam_ws/kiss-icp_ws/build/kiss_icp'], 'cwd': '/home/victor-22/go2_ws/slam_ws/kiss-icp_ws/build/kiss_icp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'victor-22'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/victor-22/go2_ws/slam_ws/kiss-icp_ws/install/kiss_icp/lib:/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_hg/lib:/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_go/lib:/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_api/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/victor-22'), ('CYCLONEDDS_URI', '<CycloneDDS><Domain><General><Interfaces>\n                            <NetworkInterface name="eno2" priority="default" multicast="default" />\n                        </Interfaces></General></Domain></CycloneDDS>'), ('OLDPWD', '/home/victor-22/go2_ws/slam_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2770'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/victor-22/go2_ws/slam_ws/kiss-icp_ws/install:/home/victor-22/unitree_ros2/cyclonedds_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'victor-22'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'victor-22'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/victor-22/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/victor-22/.local/bin'), ('SESSION_MANAGER', 'local/victor22-Latitude-5400:@/tmp/.ICE-unix/1091,unix/victor22-Latitude-5400:/tmp/.ICE-unix/1091'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/cdcb36da_19ea_43ce_b564_9a8c7a577603'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.JK46E3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.105'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/victor-22/go2_ws/slam_ws/kiss-icp_ws/install/kiss_icp:/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_api:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/victor-22/go2_ws/slam_ws/kiss-icp_ws/build/kiss_icp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages:/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_go/local/lib/python3.10/dist-packages:/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_api/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/victor-22/go2_ws/slam_ws/kiss-icp_ws/install/kiss_icp:/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_api:/opt/ros/humble')]), 'shell': False}
+[35.746748] (-) TimerEvent: {}
+[35.774831] (kiss_icp) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[35.775934] (kiss_icp) StdoutLine: {'line': b'-- Installing: /home/victor-22/go2_ws/slam_ws/kiss-icp_ws/install/kiss_icp/lib/kiss_icp/kiss_icp_node\n'}
+[35.776357] (kiss_icp) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/victor-22/go2_ws/slam_ws/kiss-icp_ws/install/kiss_icp/lib/kiss_icp/kiss_icp_node" to ""\n'}
+[35.776496] (kiss_icp) StdoutLine: {'line': b'-- Installing: /home/victor-22/go2_ws/slam_ws/kiss-icp_ws/install/kiss_icp/lib/libodometry_component.so\n'}
+[35.777569] (kiss_icp) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/victor-22/go2_ws/slam_ws/kiss-icp_ws/install/kiss_icp/lib/libodometry_component.so" to ""\n'}
+[35.777692] (kiss_icp) StdoutLine: {'line': b'-- Installing: /home/victor-22/go2_ws/slam_ws/kiss-icp_ws/install/kiss_icp/share/kiss_icp//launch\n'}
+[35.777767] (kiss_icp) StdoutLine: {'line': b'-- Installing: /home/victor-22/go2_ws/slam_ws/kiss-icp_ws/install/kiss_icp/share/kiss_icp//launch/odometry.launch.py\n'}
+[35.777891] (kiss_icp) StdoutLine: {'line': b'-- Installing: /home/victor-22/go2_ws/slam_ws/kiss-icp_ws/install/kiss_icp/share/kiss_icp//rviz\n'}
+[35.777988] (kiss_icp) StdoutLine: {'line': b'-- Installing: /home/victor-22/go2_ws/slam_ws/kiss-icp_ws/install/kiss_icp/share/kiss_icp//rviz/kiss_icp.rviz\n'}
+[35.778169] (kiss_icp) StdoutLine: {'line': b'-- Installing: /home/victor-22/go2_ws/slam_ws/kiss-icp_ws/install/kiss_icp/share/kiss_icp//config\n'}
+[35.778278] (kiss_icp) StdoutLine: {'line': b'-- Installing: /home/victor-22/go2_ws/slam_ws/kiss-icp_ws/install/kiss_icp/share/kiss_icp//config/config.yaml\n'}
+[35.778375] (kiss_icp) StdoutLine: {'line': b'-- Installing: /home/victor-22/go2_ws/slam_ws/kiss-icp_ws/install/kiss_icp/share/ament_index/resource_index/package_run_dependencies/kiss_icp\n'}
+[35.778549] (kiss_icp) StdoutLine: {'line': b'-- Installing: /home/victor-22/go2_ws/slam_ws/kiss-icp_ws/install/kiss_icp/share/ament_index/resource_index/parent_prefix_path/kiss_icp\n'}
+[35.778698] (kiss_icp) StdoutLine: {'line': b'-- Installing: /home/victor-22/go2_ws/slam_ws/kiss-icp_ws/install/kiss_icp/share/kiss_icp/environment/ament_prefix_path.sh\n'}
+[35.778885] (kiss_icp) StdoutLine: {'line': b'-- Installing: /home/victor-22/go2_ws/slam_ws/kiss-icp_ws/install/kiss_icp/share/kiss_icp/environment/ament_prefix_path.dsv\n'}
+[35.779120] (kiss_icp) StdoutLine: {'line': b'-- Installing: /home/victor-22/go2_ws/slam_ws/kiss-icp_ws/install/kiss_icp/share/kiss_icp/environment/path.sh\n'}
+[35.779245] (kiss_icp) StdoutLine: {'line': b'-- Installing: /home/victor-22/go2_ws/slam_ws/kiss-icp_ws/install/kiss_icp/share/kiss_icp/environment/path.dsv\n'}
+[35.779349] (kiss_icp) StdoutLine: {'line': b'-- Installing: /home/victor-22/go2_ws/slam_ws/kiss-icp_ws/install/kiss_icp/share/kiss_icp/local_setup.bash\n'}
+[35.779506] (kiss_icp) StdoutLine: {'line': b'-- Installing: /home/victor-22/go2_ws/slam_ws/kiss-icp_ws/install/kiss_icp/share/kiss_icp/local_setup.sh\n'}
+[35.779636] (kiss_icp) StdoutLine: {'line': b'-- Installing: /home/victor-22/go2_ws/slam_ws/kiss-icp_ws/install/kiss_icp/share/kiss_icp/local_setup.zsh\n'}
+[35.779752] (kiss_icp) StdoutLine: {'line': b'-- Installing: /home/victor-22/go2_ws/slam_ws/kiss-icp_ws/install/kiss_icp/share/kiss_icp/local_setup.dsv\n'}
+[35.779868] (kiss_icp) StdoutLine: {'line': b'-- Installing: /home/victor-22/go2_ws/slam_ws/kiss-icp_ws/install/kiss_icp/share/kiss_icp/package.dsv\n'}
+[35.780058] (kiss_icp) StdoutLine: {'line': b'-- Installing: /home/victor-22/go2_ws/slam_ws/kiss-icp_ws/install/kiss_icp/share/ament_index/resource_index/packages/kiss_icp\n'}
+[35.780167] (kiss_icp) StdoutLine: {'line': b'-- Installing: /home/victor-22/go2_ws/slam_ws/kiss-icp_ws/install/kiss_icp/share/ament_index/resource_index/rclcpp_components/kiss_icp\n'}
+[35.780350] (kiss_icp) StdoutLine: {'line': b'-- Installing: /home/victor-22/go2_ws/slam_ws/kiss-icp_ws/install/kiss_icp/share/kiss_icp/cmake/kiss_icpConfig.cmake\n'}
+[35.780483] (kiss_icp) StdoutLine: {'line': b'-- Installing: /home/victor-22/go2_ws/slam_ws/kiss-icp_ws/install/kiss_icp/share/kiss_icp/cmake/kiss_icpConfig-version.cmake\n'}
+[35.780603] (kiss_icp) StdoutLine: {'line': b'-- Installing: /home/victor-22/go2_ws/slam_ws/kiss-icp_ws/install/kiss_icp/share/kiss_icp/package.xml\n'}
+[35.781980] (kiss_icp) CommandEnded: {'returncode': 0}
+[35.801930] (kiss_icp) JobEnded: {'identifier': 'kiss_icp', 'rc': 0}
+[35.802516] (-) EventReactorShutdown: {}

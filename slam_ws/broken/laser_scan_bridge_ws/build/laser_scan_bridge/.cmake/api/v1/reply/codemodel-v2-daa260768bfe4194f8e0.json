@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-a0a947d376a60314e7c6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "laser_scan_bridge",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "laser_scan_bridge_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-laser_scan_bridge_uninstall-79c4b15e724483166546.json",
+					"name" : "laser_scan_bridge_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "scan_publisher_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-scan_publisher_node-cc8b073aa80f21735e45.json",
+					"name" : "scan_publisher_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "scan_subscriber_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-scan_subscriber_node-832640e96cb790e15b40.json",
+					"name" : "scan_subscriber_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-b25041ad42f6bc830c0c.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/victor-22/go2_ws/slam_ws/laser_scan_bridge_ws/build/laser_scan_bridge",
+		"source" : "/home/victor-22/go2_ws/slam_ws/laser_scan_bridge_ws/src"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

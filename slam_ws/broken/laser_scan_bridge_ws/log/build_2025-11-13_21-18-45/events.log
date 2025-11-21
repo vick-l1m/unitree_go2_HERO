@@ -1,0 +1,190 @@
+[0.000000] (-) TimerEvent: {}
+[0.000102] (laser_scan_bridge) JobQueued: {'identifier': 'laser_scan_bridge', 'dependencies': OrderedDict()}
+[0.000127] (laser_scan_bridge) JobStarted: {'identifier': 'laser_scan_bridge'}
+[0.006285] (laser_scan_bridge) JobProgress: {'identifier': 'laser_scan_bridge', 'progress': 'cmake'}
+[0.006675] (laser_scan_bridge) Command: {'cmd': ['/home/victor-22/.local/bin/cmake', '/home/victor-22/go2_ws/slam_ws/laser_scan_bridge_ws/src', '-DCMAKE_INSTALL_PREFIX=/home/victor-22/go2_ws/slam_ws/laser_scan_bridge_ws/install/laser_scan_bridge'], 'cwd': '/home/victor-22/go2_ws/slam_ws/laser_scan_bridge_ws/build/laser_scan_bridge', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'victor-22'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_hg/lib:/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_go/lib:/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_api/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/victor-22'), ('CYCLONEDDS_URI', '<CycloneDDS><Domain><General><Interfaces>\n                            <NetworkInterface name="eno2" priority="default" multicast="default" />\n                        </Interfaces></General></Domain></CycloneDDS>'), ('OLDPWD', '/home/victor-22/go2_ws/slam_ws/laser_scan_bridge_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '3299'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/victor-22/unitree_ros2/cyclonedds_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'victor-22'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'victor-22'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/victor-22/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/victor-22/.local/bin'), ('SESSION_MANAGER', 'local/victor22-Latitude-5400:@/tmp/.ICE-unix/1054,unix/victor22-Latitude-5400:/tmp/.ICE-unix/1054'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8234a08d_014b_4a8b_9795_744a7b15fd9c'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.AIOTF3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.112'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_api:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/victor-22/go2_ws/slam_ws/laser_scan_bridge_ws/build/laser_scan_bridge'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages:/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_go/local/lib/python3.10/dist-packages:/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_api/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_api:/opt/ros/humble')]), 'shell': False}
+[0.099349] (-) TimerEvent: {}
+[0.118169] (laser_scan_bridge) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.175030] (laser_scan_bridge) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.182516] (laser_scan_bridge) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199501] (-) TimerEvent: {}
+[0.229705] (laser_scan_bridge) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.246267] (laser_scan_bridge) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.246528] (laser_scan_bridge) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.247001] (laser_scan_bridge) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.257127] (laser_scan_bridge) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299635] (-) TimerEvent: {}
+[0.315568] (laser_scan_bridge) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.331755] (laser_scan_bridge) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.332134] (laser_scan_bridge) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.332741] (laser_scan_bridge) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.339729] (laser_scan_bridge) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.399884] (-) TimerEvent: {}
+[0.460275] (laser_scan_bridge) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter\n'}
+[0.499974] (-) TimerEvent: {}
+[0.543550] (laser_scan_bridge) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.586571] (laser_scan_bridge) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.591551] (laser_scan_bridge) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.600063] (-) TimerEvent: {}
+[0.600833] (laser_scan_bridge) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.614179] (laser_scan_bridge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.632168] (laser_scan_bridge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.683918] (laser_scan_bridge) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.686539] (laser_scan_bridge) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.700143] (-) TimerEvent: {}
+[0.712195] (laser_scan_bridge) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.719979] (laser_scan_bridge) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.770732] (laser_scan_bridge) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.771638] (laser_scan_bridge) StdoutLine: {'line': b'-- Found Threads: TRUE\n'}
+[0.800234] (-) TimerEvent: {}
+[0.841814] (laser_scan_bridge) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.887035] (laser_scan_bridge) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.900357] (-) TimerEvent: {}
+[0.964115] (laser_scan_bridge) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.965179] (laser_scan_bridge) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.965380] (laser_scan_bridge) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.965461] (laser_scan_bridge) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.966187] (laser_scan_bridge) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[0.966275] (laser_scan_bridge) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[0.966821] (laser_scan_bridge) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.967467] (laser_scan_bridge) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.968072] (laser_scan_bridge) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.968908] (laser_scan_bridge) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.968994] (laser_scan_bridge) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.969517] (laser_scan_bridge) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.970768] (laser_scan_bridge) StdoutLine: {'line': b'-- Configuring done (0.9s)\n'}
+[0.984789] (laser_scan_bridge) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[0.988206] (laser_scan_bridge) StdoutLine: {'line': b'-- Build files have been written to: /home/victor-22/go2_ws/slam_ws/laser_scan_bridge_ws/build/laser_scan_bridge\n'}
+[0.996991] (laser_scan_bridge) CommandEnded: {'returncode': 0}
+[0.997681] (laser_scan_bridge) JobProgress: {'identifier': 'laser_scan_bridge', 'progress': 'build'}
+[0.998877] (laser_scan_bridge) Command: {'cmd': ['/home/victor-22/.local/bin/cmake', '--build', '/home/victor-22/go2_ws/slam_ws/laser_scan_bridge_ws/build/laser_scan_bridge', '--', '-j8', '-l8'], 'cwd': '/home/victor-22/go2_ws/slam_ws/laser_scan_bridge_ws/build/laser_scan_bridge', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'victor-22'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_hg/lib:/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_go/lib:/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_api/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/victor-22'), ('CYCLONEDDS_URI', '<CycloneDDS><Domain><General><Interfaces>\n                            <NetworkInterface name="eno2" priority="default" multicast="default" />\n                        </Interfaces></General></Domain></CycloneDDS>'), ('OLDPWD', '/home/victor-22/go2_ws/slam_ws/laser_scan_bridge_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '3299'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/victor-22/unitree_ros2/cyclonedds_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'victor-22'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'victor-22'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/victor-22/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/victor-22/.local/bin'), ('SESSION_MANAGER', 'local/victor22-Latitude-5400:@/tmp/.ICE-unix/1054,unix/victor22-Latitude-5400:/tmp/.ICE-unix/1054'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8234a08d_014b_4a8b_9795_744a7b15fd9c'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.AIOTF3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.112'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_api:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/victor-22/go2_ws/slam_ws/laser_scan_bridge_ws/build/laser_scan_bridge'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages:/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_go/local/lib/python3.10/dist-packages:/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_api/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_api:/opt/ros/humble')]), 'shell': False}
+[1.000455] (-) TimerEvent: {}
+[1.086636] (laser_scan_bridge) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/scan_subscriber_node.dir/src/scan_subscriber_node.cpp.o\x1b[0m\n'}
+[1.086812] (laser_scan_bridge) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/scan_publisher_node.dir/src/scan_publisher_node.cpp.o\x1b[0m\n'}
+[1.100602] (-) TimerEvent: {}
+[1.200996] (-) TimerEvent: {}
+[1.301352] (-) TimerEvent: {}
+[1.401669] (-) TimerEvent: {}
+[1.501961] (-) TimerEvent: {}
+[1.602274] (-) TimerEvent: {}
+[1.702589] (-) TimerEvent: {}
+[1.802877] (-) TimerEvent: {}
+[1.903188] (-) TimerEvent: {}
+[2.003449] (-) TimerEvent: {}
+[2.103751] (-) TimerEvent: {}
+[2.204046] (-) TimerEvent: {}
+[2.304347] (-) TimerEvent: {}
+[2.404653] (-) TimerEvent: {}
+[2.504937] (-) TimerEvent: {}
+[2.605233] (-) TimerEvent: {}
+[2.705519] (-) TimerEvent: {}
+[2.805872] (-) TimerEvent: {}
+[2.906199] (-) TimerEvent: {}
+[3.006525] (-) TimerEvent: {}
+[3.106852] (-) TimerEvent: {}
+[3.207186] (-) TimerEvent: {}
+[3.307552] (-) TimerEvent: {}
+[3.407885] (-) TimerEvent: {}
+[3.508227] (-) TimerEvent: {}
+[3.608554] (-) TimerEvent: {}
+[3.708878] (-) TimerEvent: {}
+[3.809201] (-) TimerEvent: {}
+[3.909521] (-) TimerEvent: {}
+[4.009846] (-) TimerEvent: {}
+[4.110124] (-) TimerEvent: {}
+[4.210455] (-) TimerEvent: {}
+[4.310792] (-) TimerEvent: {}
+[4.411115] (-) TimerEvent: {}
+[4.511433] (-) TimerEvent: {}
+[4.611753] (-) TimerEvent: {}
+[4.712042] (-) TimerEvent: {}
+[4.812348] (-) TimerEvent: {}
+[4.912672] (-) TimerEvent: {}
+[5.012949] (-) TimerEvent: {}
+[5.113252] (-) TimerEvent: {}
+[5.213545] (-) TimerEvent: {}
+[5.313849] (-) TimerEvent: {}
+[5.414165] (-) TimerEvent: {}
+[5.514491] (-) TimerEvent: {}
+[5.614833] (-) TimerEvent: {}
+[5.715175] (-) TimerEvent: {}
+[5.815520] (-) TimerEvent: {}
+[5.903593] (laser_scan_bridge) StdoutLine: {'line': b'[ 75%] \x1b[1m\x1b[32mLinking CXX executable scan_publisher_node\x1b[0m\n'}
+[5.915672] (-) TimerEvent: {}
+[6.016084] (-) TimerEvent: {}
+[6.116513] (-) TimerEvent: {}
+[6.126146] (laser_scan_bridge) StdoutLine: {'line': b'[ 75%] Built target scan_publisher_node\n'}
+[6.216715] (-) TimerEvent: {}
+[6.316985] (-) TimerEvent: {}
+[6.417348] (-) TimerEvent: {}
+[6.517727] (-) TimerEvent: {}
+[6.618119] (-) TimerEvent: {}
+[6.718525] (-) TimerEvent: {}
+[6.818950] (-) TimerEvent: {}
+[6.919371] (-) TimerEvent: {}
+[7.019733] (-) TimerEvent: {}
+[7.120071] (-) TimerEvent: {}
+[7.220409] (-) TimerEvent: {}
+[7.320694] (-) TimerEvent: {}
+[7.421054] (-) TimerEvent: {}
+[7.521422] (-) TimerEvent: {}
+[7.621808] (-) TimerEvent: {}
+[7.722216] (-) TimerEvent: {}
+[7.822524] (-) TimerEvent: {}
+[7.922856] (-) TimerEvent: {}
+[8.023276] (-) TimerEvent: {}
+[8.123713] (-) TimerEvent: {}
+[8.224071] (-) TimerEvent: {}
+[8.324455] (-) TimerEvent: {}
+[8.424890] (-) TimerEvent: {}
+[8.525256] (-) TimerEvent: {}
+[8.625618] (-) TimerEvent: {}
+[8.725975] (-) TimerEvent: {}
+[8.826429] (-) TimerEvent: {}
+[8.926862] (-) TimerEvent: {}
+[9.027243] (-) TimerEvent: {}
+[9.127642] (-) TimerEvent: {}
+[9.228070] (-) TimerEvent: {}
+[9.328378] (-) TimerEvent: {}
+[9.428720] (-) TimerEvent: {}
+[9.529049] (-) TimerEvent: {}
+[9.629418] (-) TimerEvent: {}
+[9.729795] (-) TimerEvent: {}
+[9.830131] (-) TimerEvent: {}
+[9.930468] (-) TimerEvent: {}
+[9.984770] (laser_scan_bridge) StdoutLine: {'line': b'[100%] \x1b[1m\x1b[32mLinking CXX executable scan_subscriber_node\x1b[0m\n'}
+[10.030613] (-) TimerEvent: {}
+[10.130971] (-) TimerEvent: {}
+[10.231361] (-) TimerEvent: {}
+[10.331716] (-) TimerEvent: {}
+[10.400356] (laser_scan_bridge) StdoutLine: {'line': b'[100%] Built target scan_subscriber_node\n'}
+[10.405935] (laser_scan_bridge) CommandEnded: {'returncode': 0}
+[10.406664] (laser_scan_bridge) JobProgress: {'identifier': 'laser_scan_bridge', 'progress': 'install'}
+[10.431829] (-) TimerEvent: {}
+[10.487716] (laser_scan_bridge) Command: {'cmd': ['/home/victor-22/.local/bin/cmake', '--install', '/home/victor-22/go2_ws/slam_ws/laser_scan_bridge_ws/build/laser_scan_bridge'], 'cwd': '/home/victor-22/go2_ws/slam_ws/laser_scan_bridge_ws/build/laser_scan_bridge', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'victor-22'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_hg/lib:/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_go/lib:/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_api/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/victor-22'), ('CYCLONEDDS_URI', '<CycloneDDS><Domain><General><Interfaces>\n                            <NetworkInterface name="eno2" priority="default" multicast="default" />\n                        </Interfaces></General></Domain></CycloneDDS>'), ('OLDPWD', '/home/victor-22/go2_ws/slam_ws/laser_scan_bridge_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '3299'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/victor-22/unitree_ros2/cyclonedds_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'victor-22'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'victor-22'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/victor-22/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/victor-22/.local/bin'), ('SESSION_MANAGER', 'local/victor22-Latitude-5400:@/tmp/.ICE-unix/1054,unix/victor22-Latitude-5400:/tmp/.ICE-unix/1054'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8234a08d_014b_4a8b_9795_744a7b15fd9c'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.AIOTF3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.112'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_api:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/victor-22/go2_ws/slam_ws/laser_scan_bridge_ws/build/laser_scan_bridge'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages:/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_go/local/lib/python3.10/dist-packages:/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_api/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/victor-22/unitree_ros2/cyclonedds_ws/install/unitree_api:/opt/ros/humble')]), 'shell': False}
+[10.531919] (-) TimerEvent: {}
+[10.557951] (laser_scan_bridge) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.558241] (laser_scan_bridge) StdoutLine: {'line': b'-- Installing: /home/victor-22/go2_ws/slam_ws/laser_scan_bridge_ws/install/laser_scan_bridge/lib/laser_scan_bridge/scan_subscriber_node\n'}
+[10.560471] (laser_scan_bridge) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/victor-22/go2_ws/slam_ws/laser_scan_bridge_ws/install/laser_scan_bridge/lib/laser_scan_bridge/scan_subscriber_node" to ""\n'}
+[10.560600] (laser_scan_bridge) StdoutLine: {'line': b'-- Installing: /home/victor-22/go2_ws/slam_ws/laser_scan_bridge_ws/install/laser_scan_bridge/lib/laser_scan_bridge/scan_publisher_node\n'}
+[10.561274] (laser_scan_bridge) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/victor-22/go2_ws/slam_ws/laser_scan_bridge_ws/install/laser_scan_bridge/lib/laser_scan_bridge/scan_publisher_node" to ""\n'}
+[10.561441] (laser_scan_bridge) StdoutLine: {'line': b'-- Installing: /home/victor-22/go2_ws/slam_ws/laser_scan_bridge_ws/install/laser_scan_bridge/share/laser_scan_bridge//launch\n'}
+[10.561529] (laser_scan_bridge) StdoutLine: {'line': b'-- Installing: /home/victor-22/go2_ws/slam_ws/laser_scan_bridge_ws/install/laser_scan_bridge/share/laser_scan_bridge//launch/bridge_launch.py\n'}
+[10.561670] (laser_scan_bridge) StdoutLine: {'line': b'-- Installing: /home/victor-22/go2_ws/slam_ws/laser_scan_bridge_ws/install/laser_scan_bridge/share/ament_index/resource_index/package_run_dependencies/laser_scan_bridge\n'}
+[10.561790] (laser_scan_bridge) StdoutLine: {'line': b'-- Installing: /home/victor-22/go2_ws/slam_ws/laser_scan_bridge_ws/install/laser_scan_bridge/share/ament_index/resource_index/parent_prefix_path/laser_scan_bridge\n'}
+[10.561858] (laser_scan_bridge) StdoutLine: {'line': b'-- Installing: /home/victor-22/go2_ws/slam_ws/laser_scan_bridge_ws/install/laser_scan_bridge/share/laser_scan_bridge/environment/ament_prefix_path.sh\n'}
+[10.561919] (laser_scan_bridge) StdoutLine: {'line': b'-- Installing: /home/victor-22/go2_ws/slam_ws/laser_scan_bridge_ws/install/laser_scan_bridge/share/laser_scan_bridge/environment/ament_prefix_path.dsv\n'}
+[10.562004] (laser_scan_bridge) StdoutLine: {'line': b'-- Installing: /home/victor-22/go2_ws/slam_ws/laser_scan_bridge_ws/install/laser_scan_bridge/share/laser_scan_bridge/environment/path.sh\n'}
+[10.562083] (laser_scan_bridge) StdoutLine: {'line': b'-- Installing: /home/victor-22/go2_ws/slam_ws/laser_scan_bridge_ws/install/laser_scan_bridge/share/laser_scan_bridge/environment/path.dsv\n'}
+[10.562152] (laser_scan_bridge) StdoutLine: {'line': b'-- Installing: /home/victor-22/go2_ws/slam_ws/laser_scan_bridge_ws/install/laser_scan_bridge/share/laser_scan_bridge/local_setup.bash\n'}
+[10.562208] (laser_scan_bridge) StdoutLine: {'line': b'-- Installing: /home/victor-22/go2_ws/slam_ws/laser_scan_bridge_ws/install/laser_scan_bridge/share/laser_scan_bridge/local_setup.sh\n'}
+[10.562283] (laser_scan_bridge) StdoutLine: {'line': b'-- Installing: /home/victor-22/go2_ws/slam_ws/laser_scan_bridge_ws/install/laser_scan_bridge/share/laser_scan_bridge/local_setup.zsh\n'}
+[10.562351] (laser_scan_bridge) StdoutLine: {'line': b'-- Installing: /home/victor-22/go2_ws/slam_ws/laser_scan_bridge_ws/install/laser_scan_bridge/share/laser_scan_bridge/local_setup.dsv\n'}
+[10.562419] (laser_scan_bridge) StdoutLine: {'line': b'-- Installing: /home/victor-22/go2_ws/slam_ws/laser_scan_bridge_ws/install/laser_scan_bridge/share/laser_scan_bridge/package.dsv\n'}
+[10.562509] (laser_scan_bridge) StdoutLine: {'line': b'-- Installing: /home/victor-22/go2_ws/slam_ws/laser_scan_bridge_ws/install/laser_scan_bridge/share/ament_index/resource_index/packages/laser_scan_bridge\n'}
+[10.562616] (laser_scan_bridge) StdoutLine: {'line': b'-- Installing: /home/victor-22/go2_ws/slam_ws/laser_scan_bridge_ws/install/laser_scan_bridge/share/laser_scan_bridge/cmake/laser_scan_bridgeConfig.cmake\n'}
+[10.562693] (laser_scan_bridge) StdoutLine: {'line': b'-- Installing: /home/victor-22/go2_ws/slam_ws/laser_scan_bridge_ws/install/laser_scan_bridge/share/laser_scan_bridge/cmake/laser_scan_bridgeConfig-version.cmake\n'}
+[10.562786] (laser_scan_bridge) StdoutLine: {'line': b'-- Installing: /home/victor-22/go2_ws/slam_ws/laser_scan_bridge_ws/install/laser_scan_bridge/share/laser_scan_bridge/package.xml\n'}
+[10.564130] (laser_scan_bridge) CommandEnded: {'returncode': 0}
+[10.578705] (laser_scan_bridge) JobEnded: {'identifier': 'laser_scan_bridge', 'rc': 0}
+[10.579014] (-) EventReactorShutdown: {}

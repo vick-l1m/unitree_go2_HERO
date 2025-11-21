@@ -1,0 +1,108 @@
+[0.009s] Invoking command in '/home/victor-22/go2_ws/slam_ws/kiss-icp_ws/build/kiss_icp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/victor-22/.local/bin/cmake /home/victor-22/go2_ws/slam_ws/kiss-icp_ws/kiss-icp/ros -DCMAKE_INSTALL_PREFIX=/home/victor-22/go2_ws/slam_ws/kiss-icp_ws/install/kiss_icp
+[0.156s] -- The CXX compiler identification is GNU 11.4.0
+[0.167s] -- Detecting CXX compiler ABI info
+[0.232s] -- Detecting CXX compiler ABI info - done
+[0.248s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.249s] -- Detecting CXX compile features
+[0.249s] -- Detecting CXX compile features - done
+[0.258s] [0mCMake Deprecation Warning at /home/victor-22/go2_ws/slam_ws/kiss-icp_ws/kiss-icp/cpp/kiss_icp/3rdparty/find_dependencies.cmake:25 (cmake_policy):
+[0.258s]   The OLD behavior for policy CMP0135 will be removed from a future version
+[0.259s]   of CMake.
+[0.259s] 
+[0.259s]   The cmake-policies(7) manual explains that the OLD behaviors of all
+[0.259s]   policies are deprecated and that a policy should be set to OLD only under
+[0.259s]   specific short-term circumstances.  Projects should be ported to the NEW
+[0.259s]   behavior and not rely on setting a policy to OLD.
+[0.259s] Call Stack (most recent call first):
+[0.259s]   /home/victor-22/go2_ws/slam_ws/kiss-icp_ws/kiss-icp/cpp/kiss_icp/CMakeLists.txt:48 (include)
+[0.259s] 
+[0.259s] [0m
+[1.527s] -- The C compiler identification is GNU 11.4.0
+[1.537s] -- Detecting C compiler ABI info
+[1.590s] -- Detecting C compiler ABI info - done
+[1.608s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.608s] -- Detecting C compile features
+[1.609s] -- Detecting C compile features - done
+[2.801s] [0mCMake Deprecation Warning at /home/victor-22/go2_ws/slam_ws/kiss-icp_ws/build/kiss_icp/_deps/tessil-src/CMakeLists.txt:1 (cmake_minimum_required):
+[2.801s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[2.802s]   CMake.
+[2.802s] 
+[2.802s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[2.802s]   to tell CMake that the project requires at least <min> but has been updated
+[2.802s]   to work with policies introduced by <max> or earlier.
+[2.802s] 
+[2.802s] [0m
+[2.813s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.957s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[3.064s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[3.116s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.125s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.142s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.165s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.192s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.258s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[3.285s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[3.336s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.339s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[3.372s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[3.383s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.449s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.450s] -- Found Threads: TRUE
+[3.511s] -- Found rclcpp_components: 16.0.15 (/opt/ros/humble/share/rclcpp_components/cmake)
+[3.550s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.579s] -- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)
+[3.688s] -- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+[3.766s] -- Configuring done (3.7s)
+[3.795s] -- Generating done (0.0s)
+[3.801s] -- Build files have been written to: /home/victor-22/go2_ws/slam_ws/kiss-icp_ws/build/kiss_icp
+[3.813s] Invoked command in '/home/victor-22/go2_ws/slam_ws/kiss-icp_ws/build/kiss_icp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/victor-22/.local/bin/cmake /home/victor-22/go2_ws/slam_ws/kiss-icp_ws/kiss-icp/ros -DCMAKE_INSTALL_PREFIX=/home/victor-22/go2_ws/slam_ws/kiss-icp_ws/install/kiss_icp
+[3.815s] Invoking command in '/home/victor-22/go2_ws/slam_ws/kiss-icp_ws/build/kiss_icp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/victor-22/.local/bin/cmake --build /home/victor-22/go2_ws/slam_ws/kiss-icp_ws/build/kiss_icp -- -j8 -l8
+[3.906s] [  7%] [32mBuilding CXX object CMakeFiles/kiss_icp_node.dir/rclcpp_components/node_main_kiss_icp_node.cpp.o[0m
+[3.906s] [ 28%] [32mBuilding CXX object kiss_icp/core/CMakeFiles/kiss_icp_core.dir/Registration.cpp.o[0m
+[3.906s] [ 28%] [32mBuilding CXX object kiss_icp/metrics/CMakeFiles/kiss_icp_metrics.dir/Metrics.cpp.o[0m
+[3.906s] [ 28%] [32mBuilding CXX object kiss_icp/core/CMakeFiles/kiss_icp_core.dir/VoxelHashMap.cpp.o[0m
+[3.907s] [ 35%] [32mBuilding CXX object kiss_icp/core/CMakeFiles/kiss_icp_core.dir/VoxelUtils.cpp.o[0m
+[3.907s] [ 42%] [32mBuilding CXX object kiss_icp/core/CMakeFiles/kiss_icp_core.dir/Preprocessing.cpp.o[0m
+[3.907s] [ 50%] [32mBuilding CXX object kiss_icp/core/CMakeFiles/kiss_icp_core.dir/Threshold.cpp.o[0m
+[9.540s] [ 57%] [1m[32mLinking CXX executable kiss_icp_node[0m
+[9.691s] [ 57%] Built target kiss_icp_node
+[13.477s] [ 64%] [1m[32mLinking CXX static library libkiss_icp_core.a[0m
+[13.501s] [ 64%] Built target kiss_icp_core
+[13.511s] [ 71%] [32mBuilding CXX object kiss_icp/pipeline/CMakeFiles/kiss_icp_pipeline.dir/KissICP.cpp.o[0m
+[15.459s] [ 78%] [1m[32mLinking CXX static library libkiss_icp_pipeline.a[0m
+[15.472s] [ 78%] Built target kiss_icp_pipeline
+[15.482s] [ 85%] [32mBuilding CXX object CMakeFiles/odometry_component.dir/src/OdometryServer.cpp.o[0m
+[19.497s] [ 92%] [1m[32mLinking CXX static library libkiss_icp_metrics.a[0m
+[19.517s] [ 92%] Built target kiss_icp_metrics
+[35.387s] [100%] [1m[32mLinking CXX shared library libodometry_component.so[0m
+[35.615s] [100%] Built target odometry_component
+[35.621s] Invoked command in '/home/victor-22/go2_ws/slam_ws/kiss-icp_ws/build/kiss_icp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/victor-22/.local/bin/cmake --build /home/victor-22/go2_ws/slam_ws/kiss-icp_ws/build/kiss_icp -- -j8 -l8
+[35.704s] Invoking command in '/home/victor-22/go2_ws/slam_ws/kiss-icp_ws/build/kiss_icp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/victor-22/.local/bin/cmake --install /home/victor-22/go2_ws/slam_ws/kiss-icp_ws/build/kiss_icp
+[35.775s] -- Install configuration: "Release"
+[35.776s] -- Installing: /home/victor-22/go2_ws/slam_ws/kiss-icp_ws/install/kiss_icp/lib/kiss_icp/kiss_icp_node
+[35.776s] -- Set non-toolchain portion of runtime path of "/home/victor-22/go2_ws/slam_ws/kiss-icp_ws/install/kiss_icp/lib/kiss_icp/kiss_icp_node" to ""
+[35.776s] -- Installing: /home/victor-22/go2_ws/slam_ws/kiss-icp_ws/install/kiss_icp/lib/libodometry_component.so
+[35.778s] -- Set non-toolchain portion of runtime path of "/home/victor-22/go2_ws/slam_ws/kiss-icp_ws/install/kiss_icp/lib/libodometry_component.so" to ""
+[35.778s] -- Installing: /home/victor-22/go2_ws/slam_ws/kiss-icp_ws/install/kiss_icp/share/kiss_icp//launch
+[35.778s] -- Installing: /home/victor-22/go2_ws/slam_ws/kiss-icp_ws/install/kiss_icp/share/kiss_icp//launch/odometry.launch.py
+[35.778s] -- Installing: /home/victor-22/go2_ws/slam_ws/kiss-icp_ws/install/kiss_icp/share/kiss_icp//rviz
+[35.778s] -- Installing: /home/victor-22/go2_ws/slam_ws/kiss-icp_ws/install/kiss_icp/share/kiss_icp//rviz/kiss_icp.rviz
+[35.778s] -- Installing: /home/victor-22/go2_ws/slam_ws/kiss-icp_ws/install/kiss_icp/share/kiss_icp//config
+[35.778s] -- Installing: /home/victor-22/go2_ws/slam_ws/kiss-icp_ws/install/kiss_icp/share/kiss_icp//config/config.yaml
+[35.778s] -- Installing: /home/victor-22/go2_ws/slam_ws/kiss-icp_ws/install/kiss_icp/share/ament_index/resource_index/package_run_dependencies/kiss_icp
+[35.778s] -- Installing: /home/victor-22/go2_ws/slam_ws/kiss-icp_ws/install/kiss_icp/share/ament_index/resource_index/parent_prefix_path/kiss_icp
+[35.779s] -- Installing: /home/victor-22/go2_ws/slam_ws/kiss-icp_ws/install/kiss_icp/share/kiss_icp/environment/ament_prefix_path.sh
+[35.779s] -- Installing: /home/victor-22/go2_ws/slam_ws/kiss-icp_ws/install/kiss_icp/share/kiss_icp/environment/ament_prefix_path.dsv
+[35.779s] -- Installing: /home/victor-22/go2_ws/slam_ws/kiss-icp_ws/install/kiss_icp/share/kiss_icp/environment/path.sh
+[35.779s] -- Installing: /home/victor-22/go2_ws/slam_ws/kiss-icp_ws/install/kiss_icp/share/kiss_icp/environment/path.dsv
+[35.779s] -- Installing: /home/victor-22/go2_ws/slam_ws/kiss-icp_ws/install/kiss_icp/share/kiss_icp/local_setup.bash
+[35.779s] -- Installing: /home/victor-22/go2_ws/slam_ws/kiss-icp_ws/install/kiss_icp/share/kiss_icp/local_setup.sh
+[35.780s] -- Installing: /home/victor-22/go2_ws/slam_ws/kiss-icp_ws/install/kiss_icp/share/kiss_icp/local_setup.zsh
+[35.780s] -- Installing: /home/victor-22/go2_ws/slam_ws/kiss-icp_ws/install/kiss_icp/share/kiss_icp/local_setup.dsv
+[35.780s] -- Installing: /home/victor-22/go2_ws/slam_ws/kiss-icp_ws/install/kiss_icp/share/kiss_icp/package.dsv
+[35.780s] -- Installing: /home/victor-22/go2_ws/slam_ws/kiss-icp_ws/install/kiss_icp/share/ament_index/resource_index/packages/kiss_icp
+[35.780s] -- Installing: /home/victor-22/go2_ws/slam_ws/kiss-icp_ws/install/kiss_icp/share/ament_index/resource_index/rclcpp_components/kiss_icp
+[35.780s] -- Installing: /home/victor-22/go2_ws/slam_ws/kiss-icp_ws/install/kiss_icp/share/kiss_icp/cmake/kiss_icpConfig.cmake
+[35.780s] -- Installing: /home/victor-22/go2_ws/slam_ws/kiss-icp_ws/install/kiss_icp/share/kiss_icp/cmake/kiss_icpConfig-version.cmake
+[35.780s] -- Installing: /home/victor-22/go2_ws/slam_ws/kiss-icp_ws/install/kiss_icp/share/kiss_icp/package.xml
+[35.782s] Invoked command in '/home/victor-22/go2_ws/slam_ws/kiss-icp_ws/build/kiss_icp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/victor-22/.local/bin/cmake --install /home/victor-22/go2_ws/slam_ws/kiss-icp_ws/build/kiss_icp

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/victor-22/go2_ws/slam_ws/catkin_point_lio_unilidar/build/point_lio/pointlio_mapping" "TARGETS" "pointlio_mapping" "DESTINATION" "lib/point_lio")

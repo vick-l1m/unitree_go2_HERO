@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "kiss_icp",
+		"source" : "/home/victor-22/go2_ws/slam_ws/kiss-icp_ws/kiss-icp/cpp/kiss_icp"
+	}
+}

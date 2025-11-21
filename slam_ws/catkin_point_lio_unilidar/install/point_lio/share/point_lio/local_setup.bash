@@ -1,0 +1,1 @@
+/home/victor-22/go2_ws/slam_ws/catkin_point_lio_unilidar/build/point_lio/ament_cmake_environment_hooks/local_setup.bash

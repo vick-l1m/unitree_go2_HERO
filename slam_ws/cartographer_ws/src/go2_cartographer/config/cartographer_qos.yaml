@@ -1,0 +1,11 @@
+cartographer_node:
+  ros__parameters:
+    qos_overrides:
+      /scan:
+        reliability: reliable
+        history: keep_last
+        depth: 5
+      /utlidar/robot_odom:  
+        reliability: reliable
+        history: keep_last
+        depth: 50

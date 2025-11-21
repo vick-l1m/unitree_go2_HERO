@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/victor-22/go2_ws/slam_ws/laser_scan_bridge_ws/build/laser_scan_bridge/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
